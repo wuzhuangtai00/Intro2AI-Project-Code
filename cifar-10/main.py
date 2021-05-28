@@ -76,6 +76,7 @@ class Trainer():
                     print(val_other, val_l)
                     dataset_size += 1
                     output_margin_test += max(0, val_l - val_other)
+                    print(output_margin_test)
 
 
                 # print(output)
