@@ -58,6 +58,7 @@ class Trainer():
 
                 loss = F.cross_entropy(output, label)
 
+                print(label)
                 predict_label = output[label]
                 print(predict_label)
 
