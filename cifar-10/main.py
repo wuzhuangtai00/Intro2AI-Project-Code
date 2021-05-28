@@ -39,7 +39,11 @@ class Trainer():
 
         begin_time = time()
 
+
         for epoch in range(1, args.max_epoch+1):
+
+            output_margin = 0
+
             for data, label in tr_loader:
                 data, label = tensor2cuda(data), tensor2cuda(label)
 
@@ -53,6 +57,8 @@ class Trainer():
                     output = model(data, _eval=False)
 
                 loss = F.cross_entropy(output, label)
+
+                predict_label = output[label]
 
                 opt.zero_grad()
                 loss.backward()
