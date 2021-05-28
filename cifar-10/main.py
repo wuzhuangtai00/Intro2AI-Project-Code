@@ -43,6 +43,7 @@ class Trainer():
         for epoch in range(1, args.max_epoch+1):
 
             output_margin = 0
+            dataset_size = 0
 
             for data, label in tr_loader:
                 data, label = tensor2cuda(data), tensor2cuda(label)
@@ -61,10 +62,21 @@ class Trainer():
                 # print(label)
                 # predict_label = output[label]
                 # print(predict_label)
-                print(label.size()[0])
-                print(output.size())
-                # for i in range(label.size()):
+                # print(label.size()[0])
+                # print(output.size())
+                
+                for i in range(label.size()[0]):
                     # print(i)
+                    x = output[i].clone()
+                    y = label[i]
+                    val_l = x[y]
+                    x[y] = 0
+                    val_other = torch.max(x, dim = 1)[0]
+                    print(val_other, val_l)
+                    dataset_size += 1
+
+
+                print(output)
 
                 opt.zero_grad()
                 loss.backward()
