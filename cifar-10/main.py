@@ -70,7 +70,7 @@ class Trainer():
                     x = output[i].clone()
                     y = label[i].item()
                     # print(x, y)
-                    val_l = x[y]
+                    val_l = x[y].item()
                     x[y] = 0
                     val_other = torch.max(x)
                     print(val_other, val_l)
