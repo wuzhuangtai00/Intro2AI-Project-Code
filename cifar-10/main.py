@@ -61,7 +61,9 @@ class Trainer():
                 # print(label)
                 # predict_label = output[label]
                 # print(predict_label)
-                for i in range(label.size()):
+                print(label.size())
+                print(output.size())
+                # for i in range(label.size()):
                     print(i)
 
                 opt.zero_grad()
