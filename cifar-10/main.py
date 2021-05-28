@@ -58,10 +58,10 @@ class Trainer():
 
                 loss = F.cross_entropy(output, label)
 
-                print(label)
-                predict_label = output[label]
-                print(predict_label)
-                for i in range(size(label)):
+                # print(label)
+                # predict_label = output[label]
+                # print(predict_label)
+                for i in range(label.size()):
                     print(i)
 
                 opt.zero_grad()
