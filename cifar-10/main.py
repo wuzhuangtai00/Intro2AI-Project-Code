@@ -64,7 +64,7 @@ class Trainer():
                 print(label.size())
                 print(output.size())
                 # for i in range(label.size()):
-                    print(i)
+                    # print(i)
 
                 opt.zero_grad()
                 loss.backward()
