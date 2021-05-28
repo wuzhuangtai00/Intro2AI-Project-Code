@@ -78,7 +78,7 @@ class Trainer():
                     # print(x, y)
                     val_l = x[y].item()
                     x[y] = 0
-                    val_other += torch.max(x).item()
+                    val_other = torch.max(x).item()
                     # print(val_other, val_l)
                     dataset_size += 1
                         # print(output_margin_test)
@@ -204,12 +204,18 @@ class Trainer():
                     for i in range(label.size()[0]):
                         # print(i)
                         x = output[i].clone()
-                        y = label[i]
-                        val_l = x[y]
+                        y = label[i].item()
+                        x = F.softmax(x)
+                        # print(sum(x))
+                        # print(x, y)
+                        val_l = x[y].item()
                         x[y] = 0
-                        val_other = torch.max(x)
+                        val_other = torch.max(x).item()
                         # print(val_other, val_l)
+                        dataset_size += 1
+                            # print(output_margin_test)
                         total_margin += max(0, val_l - val_other)
+
 
                 else:
                     total_adv_acc = -num
