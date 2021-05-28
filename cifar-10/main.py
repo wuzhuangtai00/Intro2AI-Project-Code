@@ -65,7 +65,10 @@ class Trainer():
                 # print(label.size()[0])
                 # print(output.size())
                 print(sum(output))
-                
+                val_l = 0
+                val_other = 0
+
+
                 for i in range(label.size()[0]):
                     # print(i)
                     x = output[i].clone()
