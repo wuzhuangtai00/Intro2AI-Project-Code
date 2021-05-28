@@ -83,7 +83,7 @@ class Trainer():
                 loss.backward()
                 opt.step()
 
-                if _iter % args.n_eval_step == 0:
+                # if _iter % args.n_eval_step == 0:
                     # t1 = time()
 
                     # if adv_train:
