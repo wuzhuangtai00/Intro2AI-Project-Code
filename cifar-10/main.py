@@ -152,10 +152,10 @@ class Trainer():
                 va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
 
                 t2 = time()
-                logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
-                    +'='*20)
-                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s, output margin in test: {output_margin_test / dataset_size:.3f}%, output margin in val: {va_margin}')
-                logger.info('='*28+' end of evaluation '+'='*28+'\n')
+                # logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
+                    # +'='*20)
+                # logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s, output margin in test: {output_margin_test / dataset_size:.3f}%, output margin in val: {va_margin}')
+                # logger.info('='*28+' end of evaluation '+'='*28+'\n')
 
 
     def test(self, model, loader, adv_test=False, use_pseudo_label=False):
