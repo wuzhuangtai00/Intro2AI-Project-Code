@@ -172,7 +172,7 @@ class Trainer():
 
 def main(args):
 
-    save_folder = '~/%s_%s' % (args.dataset, args.affix)
+    save_folder = '%s_%s' % (args.dataset, args.affix)
 
     log_folder = os.path.join(args.log_root, save_folder)
     model_folder = os.path.join(args.model_root, save_folder)
