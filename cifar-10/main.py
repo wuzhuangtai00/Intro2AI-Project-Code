@@ -71,7 +71,7 @@ class Trainer():
                     y = label[i]
                     val_l = x[y]
                     x[y] = 0
-                    val_other = torch.max(x, dim = 1)[0]
+                    val_other = torch.max(x)
                     print(val_other, val_l)
                     dataset_size += 1
 
