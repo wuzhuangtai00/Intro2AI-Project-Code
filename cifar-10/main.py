@@ -68,8 +68,8 @@ class Trainer():
                 for i in range(label.size()[0]):
                     # print(i)
                     x = output[i].clone()
-                    # y = label[i].item()
-                    print(x, y)
+                    y = label[i].item()
+                    # print(x, y)
                     val_l = x[y]
                     x[y] = 0
                     val_other = torch.max(x)
