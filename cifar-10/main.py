@@ -180,6 +180,8 @@ def main(args):
     makedirs(log_folder)
     makedirs(model_folder)
 
+    print(model_folder)
+
     setattr(args, 'log_folder', log_folder)
     setattr(args, 'model_folder', model_folder)
 
