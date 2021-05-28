@@ -1,0 +1,224 @@
+todo             : train
+dataset          : cifar-10
+data_root        : /root/datasets
+log_root         : log
+model_root       : /root/checkpoint
+load_checkpoint  : ./model/default/model.pth
+affix            : std
+epsilon          : 0.0157
+alpha            : 0.00784
+k                : 10
+batch_size       : 128
+max_epoch        : 200
+learning_rate    : 0.1
+momentum         : 0.9
+weight_decay     : 0.0002
+gpu              : 0
+n_eval_step      : 100
+n_checkpoint_step : 8000
+n_store_image_step : 8000
+perturbation_type : linf
+adv_train        : False
+log_folder       : log/cifar-10_std
+model_folder     : /root/checkpoint/cifar-10_std
+epoch: 1, iter: 0, lr=0.1, spent 3.35 s, tr_loss: 2.335
+standard acc: 7.031%, robustness acc: 7.031%
+epoch: 1, iter: 100, lr=0.1, spent 30.99 s, tr_loss: 1.935
+standard acc: 32.812%, robustness acc: 16.406%
+epoch: 1, iter: 200, lr=0.1, spent 30.09 s, tr_loss: 1.536
+standard acc: 44.531%, robustness acc: 19.531%
+epoch: 1, iter: 300, lr=0.1, spent 30.24 s, tr_loss: 1.519
+standard acc: 50.000%, robustness acc: 14.062%
+
+==================== evaluation at epoch: 1 iteration: 391 ====================
+test acc: 47.560%, test adv acc: 8.770%, spent: 224.410 s
+============================ end of evaluation ============================
+
+epoch: 2, iter: 400, lr=0.1, spent 255.02 s, tr_loss: 1.180
+standard acc: 53.906%, robustness acc: 5.469%
+epoch: 2, iter: 500, lr=0.1, spent 30.44 s, tr_loss: 1.012
+standard acc: 64.062%, robustness acc: 14.062%
+epoch: 2, iter: 600, lr=0.1, spent 30.44 s, tr_loss: 1.062
+standard acc: 58.594%, robustness acc: 3.906%
+epoch: 2, iter: 700, lr=0.1, spent 30.44 s, tr_loss: 1.049
+standard acc: 64.844%, robustness acc: 3.906%
+
+==================== evaluation at epoch: 2 iteration: 782 ====================
+test acc: 66.930%, test adv acc: 2.780%, spent: 224.328 s
+============================ end of evaluation ============================
+
+epoch: 3, iter: 800, lr=0.1, spent 255.00 s, tr_loss: 0.826
+standard acc: 70.312%, robustness acc: 6.250%
+epoch: 3, iter: 900, lr=0.1, spent 30.44 s, tr_loss: 0.754
+standard acc: 73.438%, robustness acc: 0.000%
+epoch: 3, iter: 1000, lr=0.1, spent 30.46 s, tr_loss: 0.886
+standard acc: 69.531%, robustness acc: 2.344%
+epoch: 3, iter: 1100, lr=0.1, spent 30.45 s, tr_loss: 0.775
+standard acc: 70.312%, robustness acc: 1.562%
+
+==================== evaluation at epoch: 3 iteration: 1173 ====================
+test acc: 63.210%, test adv acc: 1.920%, spent: 224.394 s
+============================ end of evaluation ============================
+
+epoch: 4, iter: 1200, lr=0.1, spent 255.10 s, tr_loss: 0.747
+standard acc: 73.438%, robustness acc: 0.781%
+epoch: 4, iter: 1300, lr=0.1, spent 30.42 s, tr_loss: 0.645
+standard acc: 75.781%, robustness acc: 3.125%
+epoch: 4, iter: 1400, lr=0.1, spent 30.43 s, tr_loss: 0.607
+standard acc: 80.469%, robustness acc: 0.781%
+epoch: 4, iter: 1500, lr=0.1, spent 30.42 s, tr_loss: 0.523
+standard acc: 82.031%, robustness acc: 0.781%
+
+==================== evaluation at epoch: 4 iteration: 1564 ====================
+test acc: 74.830%, test adv acc: 0.530%, spent: 224.273 s
+============================ end of evaluation ============================
+
+epoch: 5, iter: 1600, lr=0.1, spent 254.93 s, tr_loss: 0.591
+standard acc: 82.031%, robustness acc: 0.781%
+epoch: 5, iter: 1700, lr=0.1, spent 30.44 s, tr_loss: 0.547
+standard acc: 77.344%, robustness acc: 0.000%
+epoch: 5, iter: 1800, lr=0.1, spent 30.44 s, tr_loss: 0.592
+standard acc: 75.000%, robustness acc: 0.000%
+epoch: 5, iter: 1900, lr=0.1, spent 30.44 s, tr_loss: 0.622
+standard acc: 78.125%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 5 iteration: 1955 ====================
+test acc: 80.510%, test adv acc: 0.410%, spent: 224.292 s
+============================ end of evaluation ============================
+
+epoch: 6, iter: 2000, lr=0.1, spent 254.94 s, tr_loss: 0.453
+standard acc: 86.719%, robustness acc: 0.781%
+epoch: 6, iter: 2100, lr=0.1, spent 30.41 s, tr_loss: 0.309
+standard acc: 89.062%, robustness acc: 0.000%
+epoch: 6, iter: 2200, lr=0.1, spent 30.41 s, tr_loss: 0.653
+standard acc: 78.906%, robustness acc: 0.000%
+epoch: 6, iter: 2300, lr=0.1, spent 30.41 s, tr_loss: 0.520
+standard acc: 85.156%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 6 iteration: 2346 ====================
+test acc: 72.180%, test adv acc: 0.470%, spent: 224.351 s
+============================ end of evaluation ============================
+
+epoch: 7, iter: 2400, lr=0.1, spent 255.04 s, tr_loss: 0.544
+standard acc: 84.375%, robustness acc: 0.000%
+epoch: 7, iter: 2500, lr=0.1, spent 30.43 s, tr_loss: 0.363
+standard acc: 88.281%, robustness acc: 0.781%
+epoch: 7, iter: 2600, lr=0.1, spent 30.43 s, tr_loss: 0.274
+standard acc: 89.062%, robustness acc: 0.000%
+epoch: 7, iter: 2700, lr=0.1, spent 30.42 s, tr_loss: 0.450
+standard acc: 85.156%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 7 iteration: 2737 ====================
+test acc: 81.310%, test adv acc: 0.180%, spent: 224.160 s
+============================ end of evaluation ============================
+
+epoch: 8, iter: 2800, lr=0.1, spent 254.80 s, tr_loss: 0.353
+standard acc: 85.938%, robustness acc: 0.000%
+epoch: 8, iter: 2900, lr=0.1, spent 30.38 s, tr_loss: 0.390
+standard acc: 89.844%, robustness acc: 0.000%
+epoch: 8, iter: 3000, lr=0.1, spent 30.39 s, tr_loss: 0.375
+standard acc: 87.500%, robustness acc: 0.000%
+epoch: 8, iter: 3100, lr=0.1, spent 30.39 s, tr_loss: 0.418
+standard acc: 89.062%, robustness acc: 0.781%
+
+==================== evaluation at epoch: 8 iteration: 3128 ====================
+test acc: 81.080%, test adv acc: 0.210%, spent: 224.370 s
+============================ end of evaluation ============================
+
+epoch: 9, iter: 3200, lr=0.1, spent 255.01 s, tr_loss: 0.268
+standard acc: 89.844%, robustness acc: 0.000%
+epoch: 9, iter: 3300, lr=0.1, spent 30.41 s, tr_loss: 0.404
+standard acc: 85.938%, robustness acc: 0.000%
+epoch: 9, iter: 3400, lr=0.1, spent 30.40 s, tr_loss: 0.385
+standard acc: 85.938%, robustness acc: 0.000%
+epoch: 9, iter: 3500, lr=0.1, spent 30.39 s, tr_loss: 0.344
+standard acc: 89.062%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 9 iteration: 3519 ====================
+test acc: 83.210%, test adv acc: 0.090%, spent: 224.136 s
+============================ end of evaluation ============================
+
+epoch: 10, iter: 3600, lr=0.1, spent 254.76 s, tr_loss: 0.386
+standard acc: 87.500%, robustness acc: 0.000%
+epoch: 10, iter: 3700, lr=0.1, spent 30.39 s, tr_loss: 0.313
+standard acc: 90.625%, robustness acc: 0.781%
+epoch: 10, iter: 3800, lr=0.1, spent 30.41 s, tr_loss: 0.269
+standard acc: 90.625%, robustness acc: 0.000%
+epoch: 10, iter: 3900, lr=0.1, spent 30.41 s, tr_loss: 0.254
+standard acc: 90.625%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 10 iteration: 3910 ====================
+test acc: 85.630%, test adv acc: 0.030%, spent: 224.394 s
+============================ end of evaluation ============================
+
+epoch: 11, iter: 4000, lr=0.1, spent 255.03 s, tr_loss: 0.449
+standard acc: 80.469%, robustness acc: 0.000%
+epoch: 11, iter: 4100, lr=0.1, spent 30.38 s, tr_loss: 0.440
+standard acc: 85.938%, robustness acc: 0.000%
+epoch: 11, iter: 4200, lr=0.1, spent 30.39 s, tr_loss: 0.617
+standard acc: 80.469%, robustness acc: 0.000%
+epoch: 11, iter: 4300, lr=0.1, spent 29.19 s, tr_loss: 0.383
+standard acc: 90.000%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 11 iteration: 4301 ====================
+test acc: 84.600%, test adv acc: 0.060%, spent: 224.221 s
+============================ end of evaluation ============================
+
+epoch: 12, iter: 4400, lr=0.1, spent 255.11 s, tr_loss: 0.310
+standard acc: 90.625%, robustness acc: 0.781%
+epoch: 12, iter: 4500, lr=0.1, spent 30.40 s, tr_loss: 0.392
+standard acc: 86.719%, robustness acc: 0.000%
+epoch: 12, iter: 4600, lr=0.1, spent 30.42 s, tr_loss: 0.314
+standard acc: 89.062%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 12 iteration: 4692 ====================
+test acc: 85.720%, test adv acc: 0.050%, spent: 224.269 s
+============================ end of evaluation ============================
+
+epoch: 13, iter: 4700, lr=0.1, spent 254.93 s, tr_loss: 0.369
+standard acc: 83.594%, robustness acc: 0.000%
+epoch: 13, iter: 4800, lr=0.1, spent 30.39 s, tr_loss: 0.260
+standard acc: 89.844%, robustness acc: 0.000%
+epoch: 13, iter: 4900, lr=0.1, spent 30.40 s, tr_loss: 0.249
+standard acc: 92.188%, robustness acc: 0.000%
+epoch: 13, iter: 5000, lr=0.1, spent 30.39 s, tr_loss: 0.259
+standard acc: 90.625%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 13 iteration: 5083 ====================
+test acc: 82.820%, test adv acc: 0.100%, spent: 224.330 s
+============================ end of evaluation ============================
+
+epoch: 14, iter: 5100, lr=0.1, spent 254.98 s, tr_loss: 0.419
+standard acc: 84.375%, robustness acc: 0.000%
+epoch: 14, iter: 5200, lr=0.1, spent 30.41 s, tr_loss: 0.441
+standard acc: 85.156%, robustness acc: 0.000%
+epoch: 14, iter: 5300, lr=0.1, spent 30.39 s, tr_loss: 0.325
+standard acc: 90.625%, robustness acc: 0.000%
+epoch: 14, iter: 5400, lr=0.1, spent 30.39 s, tr_loss: 0.239
+standard acc: 92.969%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 14 iteration: 5474 ====================
+test acc: 84.060%, test adv acc: 0.200%, spent: 224.197 s
+============================ end of evaluation ============================
+
+epoch: 15, iter: 5500, lr=0.1, spent 254.81 s, tr_loss: 0.295
+standard acc: 87.500%, robustness acc: 0.000%
+epoch: 15, iter: 5600, lr=0.1, spent 30.42 s, tr_loss: 0.328
+standard acc: 90.625%, robustness acc: 0.000%
+epoch: 15, iter: 5700, lr=0.1, spent 30.41 s, tr_loss: 0.187
+standard acc: 93.750%, robustness acc: 0.000%
+epoch: 15, iter: 5800, lr=0.1, spent 30.41 s, tr_loss: 0.298
+standard acc: 90.625%, robustness acc: 0.000%
+
+==================== evaluation at epoch: 15 iteration: 5865 ====================
+test acc: 86.960%, test adv acc: 0.080%, spent: 224.310 s
+============================ end of evaluation ============================
+
+epoch: 16, iter: 5900, lr=0.1, spent 254.98 s, tr_loss: 0.318
+standard acc: 93.750%, robustness acc: 0.000%
+epoch: 16, iter: 6000, lr=0.1, spent 30.40 s, tr_loss: 0.306
+standard acc: 88.281%, robustness acc: 0.000%
+epoch: 16, iter: 6100, lr=0.1, spent 30.38 s, tr_loss: 0.310
+standard acc: 89.844%, robustness acc: 0.781%
+epoch: 16, iter: 6200, lr=0.1, spent 30.39 s, tr_loss: 0.275
+standard acc: 89.844%, robustness acc: 0.781%

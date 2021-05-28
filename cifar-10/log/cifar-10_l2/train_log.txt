@@ -1,0 +1,25 @@
+todo             : train
+dataset          : cifar-10
+data_root        : /root/datasets
+log_root         : log
+model_root       : /root/checkpoint
+load_checkpoint  : ./model/default/model.pth
+affix            : l2
+epsilon          : 0.314
+alpha            : 0.00784
+k                : 10
+batch_size       : 128
+max_epoch        : 200
+learning_rate    : 0.1
+momentum         : 0.9
+weight_decay     : 0.0002
+gpu              : 0
+n_eval_step      : 100
+n_checkpoint_step : 8000
+n_store_image_step : 8000
+perturbation_type : l2
+adv_train        : True
+log_folder       : log/cifar-10_l2
+model_folder     : /root/checkpoint/cifar-10_l2
+epoch: 1, iter: 0, lr=0.1, spent 3.37 s, tr_loss: 2.312
+standard acc: 11.719%, robustness acc: 11.719%
