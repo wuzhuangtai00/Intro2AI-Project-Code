@@ -61,6 +61,8 @@ class Trainer():
                 print(label)
                 predict_label = output[label]
                 print(predict_label)
+                for i in range(size(label)):
+                    print(i)
 
                 opt.zero_grad()
                 loss.backward()
