@@ -64,20 +64,22 @@ class Trainer():
                 # print(predict_label)
                 # print(label.size()[0])
                 # print(output.size())
+                print(sum(output))
                 
                 for i in range(label.size()[0]):
                     # print(i)
                     x = output[i].clone()
                     y = label[i].item()
-                    print(x)
+                    print(sum(x))
                     # print(x, y)
-                    val_l = x[y].item()
+                    val_l += x[y].item()
                     x[y] = 0
-                    val_other = torch.max(x).item()
+                    val_other += torch.max(x).item()
                     # print(val_other, val_l)
-                    dataset_size += 1
-                    output_margin_test += max(0, val_l - val_other)
+                
+                dataset_size += 1
                     # print(output_margin_test)
+                output_margin_test += max(0, val_l - val_other)
 
 
                 # print(output)
