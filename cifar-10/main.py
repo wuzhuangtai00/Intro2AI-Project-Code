@@ -74,7 +74,7 @@ class Trainer():
                     x = output[i].clone()
                     y = label[i].item()
                     x = F.softmax(x, dim = 0)
-                    print(sum(x))
+                    # print(sum(x))
                     # print(x, y)
                     val_l = x[y].item()
                     x[y] = 0
