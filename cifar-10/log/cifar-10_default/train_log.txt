@@ -1,8 +1,8 @@
 todo             : train
 dataset          : cifar-10
-data_root        : /home/yilin/Data
+data_root        : /root/datasets/
 log_root         : log
-model_root       : checkpoint
+model_root       : ~/checkpoint
 load_checkpoint  : ./model/default/model.pth
 affix            : default
 epsilon          : 0.0157
@@ -20,4 +20,6 @@ n_store_image_step : 4000
 perturbation_type : linf
 adv_train        : False
 log_folder       : log/cifar-10_default
-model_folder     : checkpoint/cifar-10_default
+model_folder     : ~/checkpoint/cifar-10_default
+epoch: 1, iter: 0, lr=0.1, spent 49.09 s, tr_loss: 2.285
+standard acc: 7.812%, robustness acc: 0.000%
