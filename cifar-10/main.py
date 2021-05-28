@@ -72,7 +72,7 @@ class Trainer():
                     val_l = x[y]
                     x[y] = 0
                     val_other = torch.max(x)
-                    # print(val_other, val_l)
+                    print(val_other, val_l)
                     dataset_size += 1
                     output_margin_test += max(0, val_l - val_other)
 
@@ -92,8 +92,7 @@ class Trainer():
                         # pred = torch.max(stand_output, dim=1)[1]
 
                         # print(pred)
-                        # std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
-# 
+                        # std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100 
                         # pred = torch.max(output, dim=1)[1]
                         # print(pred)
                         # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
@@ -154,7 +153,7 @@ class Trainer():
                 t2 = time()
                 logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
                     +'='*20)
-                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s, output margin in test: {output_margin_test / dataset_size:.3f}%, output margin in val: {va_margin}')
+                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s, output margin in test: {output_margin_test / dataset_size:.3f}, output margin in val: {va_margin}')
                 logger.info('='*28+' end of evaluation '+'='*28+'\n')
 
 
