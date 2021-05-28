@@ -69,6 +69,7 @@ class Trainer():
                     # print(i)
                     x = output[i].clone()
                     y = label[i].item()
+                    print(x)
                     # print(x, y)
                     val_l = x[y].item()
                     x[y] = 0
