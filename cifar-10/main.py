@@ -59,6 +59,7 @@ class Trainer():
                 loss = F.cross_entropy(output, label)
 
                 predict_label = output[label]
+                print(predict_label)
 
                 opt.zero_grad()
                 loss.backward()
