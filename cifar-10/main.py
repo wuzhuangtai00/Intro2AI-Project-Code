@@ -212,7 +212,6 @@ class Trainer():
                         x[y] = 0
                         val_other = torch.max(x).item()
                         # print(val_other, val_l)
-                        dataset_size += 1
                             # print(output_margin_test)
                         total_margin += max(0, val_l - val_other)
 
