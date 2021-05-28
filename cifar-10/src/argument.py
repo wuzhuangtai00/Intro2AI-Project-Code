@@ -32,9 +32,9 @@ def parser():
     parser.add_argument('--gpu', '-g', default='0', help='which gpu to use')
     parser.add_argument('--n_eval_step', type=int, default=100, 
         help='number of iteration per one evaluation')
-    parser.add_argument('--n_checkpoint_step', type=int, default=4000, 
+    parser.add_argument('--n_checkpoint_step', type=int, default=8000, 
         help='number of iteration to save a checkpoint')
-    parser.add_argument('--n_store_image_step', type=int, default=4000, 
+    parser.add_argument('--n_store_image_step', type=int, default=8000, 
         help='number of iteration to save adversaries')
     parser.add_argument('--perturbation_type', '-p', choices=['linf', 'l2'], default='linf', 
         help='the type of the perturbation (linf or l2)')
