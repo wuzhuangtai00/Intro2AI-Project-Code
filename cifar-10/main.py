@@ -42,7 +42,7 @@ class Trainer():
 
         for epoch in range(1, args.max_epoch+1):
 
-            output_margin = 0
+            output_margin_test = 0
             dataset_size = 0
 
             for data, label in tr_loader:
@@ -74,9 +74,10 @@ class Trainer():
                     val_other = torch.max(x)
                     print(val_other, val_l)
                     dataset_size += 1
+                    output_margin_test += max(0, val_l - val_other)
 
 
-                print(output)
+                # print(output)
 
                 opt.zero_grad()
                 loss.backward()
@@ -147,13 +148,13 @@ class Trainer():
 
             if va_loader is not None:
                 t1 = time()
-                va_acc, va_adv_acc = self.test(model, va_loader, True, False)
+                va_acc, va_adv_acc, va_margin = self.test(model, va_loader, True, False)
                 va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
 
                 t2 = time()
                 logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
                     +'='*20)
-                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s')
+                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, spent: {t2-t1:.3f} s, output margin in test: {output_margin_test / dataset_size:.3f}%, output margin in val: {va_margin}')
                 logger.info('='*28+' end of evaluation '+'='*28+'\n')
 
 
@@ -163,6 +164,8 @@ class Trainer():
         total_acc = 0.0
         num = 0
         total_adv_acc = 0.0
+
+        total_margin = 0
 
         with torch.no_grad():
             for data, label in loader:
@@ -189,10 +192,22 @@ class Trainer():
                     adv_pred = torch.max(adv_output, dim=1)[1]
                     adv_acc = evaluate(adv_pred.cpu().numpy(), label.cpu().numpy(), 'sum')
                     total_adv_acc += adv_acc
+
+
+                    for i in range(label.size()[0]):
+                        # print(i)
+                        x = output[i].clone()
+                        y = label[i]
+                        val_l = x[y]
+                        x[y] = 0
+                        val_other = torch.max(x)
+                        # print(val_other, val_l)
+                        total_margin += max(0, val_l - val_other)
+
                 else:
                     total_adv_acc = -num
 
-        return total_acc / num , total_adv_acc / num
+        return total_acc / num , total_adv_acc / num, total_margin / num
 
 def main(args):
 
