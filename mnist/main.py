@@ -55,6 +55,7 @@ class Trainer():
 
                 loss = F.cross_entropy(output, label)
 
+                pred = torch.max(output, dim=1)[1]
                 train_acc += evaluate(pred.cpu().numpy(), label.cpu().numpy(), 'sum')
 
                 for i in range(label.size()[0]):
