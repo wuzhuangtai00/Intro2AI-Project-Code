@@ -121,7 +121,7 @@ class Trainer():
 
                 logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
                     +'='*20)
-                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, train acc: {train_acc * 100.0 / datasets :.3f}% output margin in test: {output_margin_test / dataset_size:.3f}, output margin in val: {va_margin}')
+                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, train acc: {train_acc * 100.0 / dataset_size :.3f}% output margin in test: {output_margin_test / dataset_size:.3f}, output margin in val: {va_margin}')
                 logger.info('='*28 + ' end of evaluation ' + '='*28 + '\n')
 
             begin_time = time()
