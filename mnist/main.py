@@ -106,12 +106,11 @@ class Trainer():
                                         # nrow=16)
                     
 
-                if _iter % args.n_checkpoint_step == 0:
-                    file_name = os.path.join(args.model_folder, 'checkpoint_%d.pth' % _iter)
-                    save_model(model, file_name)
-
                 _iter += 1
             
+
+            file_name = os.path.join(args.model_folder, 'checkpoint_%d.pth' % epoch)
+            save_model(model, file_name)
 
             if va_loader is not None:
                 va_acc, va_adv_acc, va_margin = self.test(model, va_loader, True)
