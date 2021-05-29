@@ -1,0 +1,31 @@
+todo             : train
+dataset          : mnist
+data_root        : /root/datasets
+log_root         : log
+model_root       : /root/checkpoint
+load_checkpoint  : ./model/default/model.pth
+affix            : std
+epsilon          : 0.3
+alpha            : 0.15
+k                : 10
+batch_size       : 512
+max_epoch        : 200
+learning_rate    : 0.0001
+gpu              : 0
+n_eval_step      : 100
+n_checkpoint_step : 2000
+n_store_image_step : 2000
+perturbation_type : linf
+adv_train        : False
+log_folder       : log/mnist_std
+model_folder     : /root/checkpoint/mnist_std
+
+==================== evaluation at epoch: 1 iteration: 118 ====================
+test acc: 91.600%, test adv acc: 3.390%, train acc: 78.907% output margin in test: 0.410, output margin in val: 0.7432387774185331
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 2 iteration: 236 ====================
+test acc: 94.220%, test adv acc: 2.850%, train acc: 92.568% output margin in test: 0.792, output margin in val: 0.8393375987382496
+============================ end of evaluation ============================
+
