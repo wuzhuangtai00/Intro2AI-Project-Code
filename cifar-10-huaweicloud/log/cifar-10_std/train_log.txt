@@ -8,7 +8,7 @@ affix            : std
 epsilon          : 0.0157
 alpha            : 0.00784
 k                : 10
-batch_size       : 128
+batch_size       : 512
 max_epoch        : 200
 learning_rate    : 0.1
 momentum         : 0.9
@@ -21,204 +21,273 @@ perturbation_type : linf
 adv_train        : False
 log_folder       : log/cifar-10_std
 model_folder     : /root/checkpoint/cifar-10_std
-epoch: 1, iter: 0, lr=0.1, spent 3.35 s, tr_loss: 2.335
-standard acc: 7.031%, robustness acc: 7.031%
-epoch: 1, iter: 100, lr=0.1, spent 30.99 s, tr_loss: 1.935
-standard acc: 32.812%, robustness acc: 16.406%
-epoch: 1, iter: 200, lr=0.1, spent 30.09 s, tr_loss: 1.536
-standard acc: 44.531%, robustness acc: 19.531%
-epoch: 1, iter: 300, lr=0.1, spent 30.24 s, tr_loss: 1.519
-standard acc: 50.000%, robustness acc: 14.062%
 
-==================== evaluation at epoch: 1 iteration: 391 ====================
-test acc: 47.560%, test adv acc: 8.770%, spent: 224.410 s
+==================== evaluation at epoch: 1 iteration: 98 ====================
+test acc: 41.910%, test adv acc: 11.360%, spent: 212.975 s, output margin in test: 0.134, output margin in val: 0.1963064242025881
 ============================ end of evaluation ============================
 
-epoch: 2, iter: 400, lr=0.1, spent 255.02 s, tr_loss: 1.180
-standard acc: 53.906%, robustness acc: 5.469%
-epoch: 2, iter: 500, lr=0.1, spent 30.44 s, tr_loss: 1.012
-standard acc: 64.062%, robustness acc: 14.062%
-epoch: 2, iter: 600, lr=0.1, spent 30.44 s, tr_loss: 1.062
-standard acc: 58.594%, robustness acc: 3.906%
-epoch: 2, iter: 700, lr=0.1, spent 30.44 s, tr_loss: 1.049
-standard acc: 64.844%, robustness acc: 3.906%
 
-==================== evaluation at epoch: 2 iteration: 782 ====================
-test acc: 66.930%, test adv acc: 2.780%, spent: 224.328 s
+==================== evaluation at epoch: 2 iteration: 196 ====================
+test acc: 55.560%, test adv acc: 6.600%, spent: 213.271 s, output margin in test: 0.343, output margin in val: 0.3740044427478977
 ============================ end of evaluation ============================
 
-epoch: 3, iter: 800, lr=0.1, spent 255.00 s, tr_loss: 0.826
-standard acc: 70.312%, robustness acc: 6.250%
-epoch: 3, iter: 900, lr=0.1, spent 30.44 s, tr_loss: 0.754
-standard acc: 73.438%, robustness acc: 0.000%
-epoch: 3, iter: 1000, lr=0.1, spent 30.46 s, tr_loss: 0.886
-standard acc: 69.531%, robustness acc: 2.344%
-epoch: 3, iter: 1100, lr=0.1, spent 30.45 s, tr_loss: 0.775
-standard acc: 70.312%, robustness acc: 1.562%
 
-==================== evaluation at epoch: 3 iteration: 1173 ====================
-test acc: 63.210%, test adv acc: 1.920%, spent: 224.394 s
+==================== evaluation at epoch: 3 iteration: 294 ====================
+test acc: 68.610%, test adv acc: 3.600%, spent: 213.274 s, output margin in test: 0.479, output margin in val: 0.5105538257489765
 ============================ end of evaluation ============================
 
-epoch: 4, iter: 1200, lr=0.1, spent 255.10 s, tr_loss: 0.747
-standard acc: 73.438%, robustness acc: 0.781%
-epoch: 4, iter: 1300, lr=0.1, spent 30.42 s, tr_loss: 0.645
-standard acc: 75.781%, robustness acc: 3.125%
-epoch: 4, iter: 1400, lr=0.1, spent 30.43 s, tr_loss: 0.607
-standard acc: 80.469%, robustness acc: 0.781%
-epoch: 4, iter: 1500, lr=0.1, spent 30.42 s, tr_loss: 0.523
-standard acc: 82.031%, robustness acc: 0.781%
 
-==================== evaluation at epoch: 4 iteration: 1564 ====================
-test acc: 74.830%, test adv acc: 0.530%, spent: 224.273 s
+==================== evaluation at epoch: 4 iteration: 392 ====================
+test acc: 73.380%, test adv acc: 2.030%, spent: 213.412 s, output margin in test: 0.566, output margin in val: 0.5659471952478603
 ============================ end of evaluation ============================
 
-epoch: 5, iter: 1600, lr=0.1, spent 254.93 s, tr_loss: 0.591
-standard acc: 82.031%, robustness acc: 0.781%
-epoch: 5, iter: 1700, lr=0.1, spent 30.44 s, tr_loss: 0.547
-standard acc: 77.344%, robustness acc: 0.000%
-epoch: 5, iter: 1800, lr=0.1, spent 30.44 s, tr_loss: 0.592
-standard acc: 75.000%, robustness acc: 0.000%
-epoch: 5, iter: 1900, lr=0.1, spent 30.44 s, tr_loss: 0.622
-standard acc: 78.125%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 5 iteration: 1955 ====================
-test acc: 80.510%, test adv acc: 0.410%, spent: 224.292 s
+==================== evaluation at epoch: 5 iteration: 490 ====================
+test acc: 78.260%, test adv acc: 1.890%, spent: 213.411 s, output margin in test: 0.623, output margin in val: 0.6031356888474274
 ============================ end of evaluation ============================
 
-epoch: 6, iter: 2000, lr=0.1, spent 254.94 s, tr_loss: 0.453
-standard acc: 86.719%, robustness acc: 0.781%
-epoch: 6, iter: 2100, lr=0.1, spent 30.41 s, tr_loss: 0.309
-standard acc: 89.062%, robustness acc: 0.000%
-epoch: 6, iter: 2200, lr=0.1, spent 30.41 s, tr_loss: 0.653
-standard acc: 78.906%, robustness acc: 0.000%
-epoch: 6, iter: 2300, lr=0.1, spent 30.41 s, tr_loss: 0.520
-standard acc: 85.156%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 6 iteration: 2346 ====================
-test acc: 72.180%, test adv acc: 0.470%, spent: 224.351 s
+==================== evaluation at epoch: 6 iteration: 588 ====================
+test acc: 77.040%, test adv acc: 1.980%, spent: 213.629 s, output margin in test: 0.668, output margin in val: 0.6271430782699137
 ============================ end of evaluation ============================
 
-epoch: 7, iter: 2400, lr=0.1, spent 255.04 s, tr_loss: 0.544
-standard acc: 84.375%, robustness acc: 0.000%
-epoch: 7, iter: 2500, lr=0.1, spent 30.43 s, tr_loss: 0.363
-standard acc: 88.281%, robustness acc: 0.781%
-epoch: 7, iter: 2600, lr=0.1, spent 30.43 s, tr_loss: 0.274
-standard acc: 89.062%, robustness acc: 0.000%
-epoch: 7, iter: 2700, lr=0.1, spent 30.42 s, tr_loss: 0.450
-standard acc: 85.156%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 7 iteration: 2737 ====================
-test acc: 81.310%, test adv acc: 0.180%, spent: 224.160 s
+==================== evaluation at epoch: 7 iteration: 686 ====================
+test acc: 80.880%, test adv acc: 0.500%, spent: 213.402 s, output margin in test: 0.709, output margin in val: 0.6777602278955386
 ============================ end of evaluation ============================
 
-epoch: 8, iter: 2800, lr=0.1, spent 254.80 s, tr_loss: 0.353
-standard acc: 85.938%, robustness acc: 0.000%
-epoch: 8, iter: 2900, lr=0.1, spent 30.38 s, tr_loss: 0.390
-standard acc: 89.844%, robustness acc: 0.000%
-epoch: 8, iter: 3000, lr=0.1, spent 30.39 s, tr_loss: 0.375
-standard acc: 87.500%, robustness acc: 0.000%
-epoch: 8, iter: 3100, lr=0.1, spent 30.39 s, tr_loss: 0.418
-standard acc: 89.062%, robustness acc: 0.781%
 
-==================== evaluation at epoch: 8 iteration: 3128 ====================
-test acc: 81.080%, test adv acc: 0.210%, spent: 224.370 s
+==================== evaluation at epoch: 8 iteration: 784 ====================
+test acc: 81.620%, test adv acc: 1.230%, spent: 213.206 s, output margin in test: 0.727, output margin in val: 0.6922344577803293
 ============================ end of evaluation ============================
 
-epoch: 9, iter: 3200, lr=0.1, spent 255.01 s, tr_loss: 0.268
-standard acc: 89.844%, robustness acc: 0.000%
-epoch: 9, iter: 3300, lr=0.1, spent 30.41 s, tr_loss: 0.404
-standard acc: 85.938%, robustness acc: 0.000%
-epoch: 9, iter: 3400, lr=0.1, spent 30.40 s, tr_loss: 0.385
-standard acc: 85.938%, robustness acc: 0.000%
-epoch: 9, iter: 3500, lr=0.1, spent 30.39 s, tr_loss: 0.344
-standard acc: 89.062%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 9 iteration: 3519 ====================
-test acc: 83.210%, test adv acc: 0.090%, spent: 224.136 s
+==================== evaluation at epoch: 9 iteration: 882 ====================
+test acc: 81.310%, test adv acc: 0.300%, spent: 213.169 s, output margin in test: 0.753, output margin in val: 0.7094035282543211
 ============================ end of evaluation ============================
 
-epoch: 10, iter: 3600, lr=0.1, spent 254.76 s, tr_loss: 0.386
-standard acc: 87.500%, robustness acc: 0.000%
-epoch: 10, iter: 3700, lr=0.1, spent 30.39 s, tr_loss: 0.313
-standard acc: 90.625%, robustness acc: 0.781%
-epoch: 10, iter: 3800, lr=0.1, spent 30.41 s, tr_loss: 0.269
-standard acc: 90.625%, robustness acc: 0.000%
-epoch: 10, iter: 3900, lr=0.1, spent 30.41 s, tr_loss: 0.254
-standard acc: 90.625%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 10 iteration: 3910 ====================
-test acc: 85.630%, test adv acc: 0.030%, spent: 224.394 s
+==================== evaluation at epoch: 10 iteration: 980 ====================
+test acc: 80.930%, test adv acc: 0.280%, spent: 213.209 s, output margin in test: 0.770, output margin in val: 0.699904163623977
 ============================ end of evaluation ============================
 
-epoch: 11, iter: 4000, lr=0.1, spent 255.03 s, tr_loss: 0.449
-standard acc: 80.469%, robustness acc: 0.000%
-epoch: 11, iter: 4100, lr=0.1, spent 30.38 s, tr_loss: 0.440
-standard acc: 85.938%, robustness acc: 0.000%
-epoch: 11, iter: 4200, lr=0.1, spent 30.39 s, tr_loss: 0.617
-standard acc: 80.469%, robustness acc: 0.000%
-epoch: 11, iter: 4300, lr=0.1, spent 29.19 s, tr_loss: 0.383
-standard acc: 90.000%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 11 iteration: 4301 ====================
-test acc: 84.600%, test adv acc: 0.060%, spent: 224.221 s
+==================== evaluation at epoch: 11 iteration: 1078 ====================
+test acc: 84.710%, test adv acc: 0.220%, spent: 213.196 s, output margin in test: 0.786, output margin in val: 0.7455404957888475
 ============================ end of evaluation ============================
 
-epoch: 12, iter: 4400, lr=0.1, spent 255.11 s, tr_loss: 0.310
-standard acc: 90.625%, robustness acc: 0.781%
-epoch: 12, iter: 4500, lr=0.1, spent 30.40 s, tr_loss: 0.392
-standard acc: 86.719%, robustness acc: 0.000%
-epoch: 12, iter: 4600, lr=0.1, spent 30.42 s, tr_loss: 0.314
-standard acc: 89.062%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 12 iteration: 4692 ====================
-test acc: 85.720%, test adv acc: 0.050%, spent: 224.269 s
+==================== evaluation at epoch: 12 iteration: 1176 ====================
+test acc: 83.310%, test adv acc: 1.450%, spent: 213.403 s, output margin in test: 0.798, output margin in val: 0.7460775782228241
 ============================ end of evaluation ============================
 
-epoch: 13, iter: 4700, lr=0.1, spent 254.93 s, tr_loss: 0.369
-standard acc: 83.594%, robustness acc: 0.000%
-epoch: 13, iter: 4800, lr=0.1, spent 30.39 s, tr_loss: 0.260
-standard acc: 89.844%, robustness acc: 0.000%
-epoch: 13, iter: 4900, lr=0.1, spent 30.40 s, tr_loss: 0.249
-standard acc: 92.188%, robustness acc: 0.000%
-epoch: 13, iter: 5000, lr=0.1, spent 30.39 s, tr_loss: 0.259
-standard acc: 90.625%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 13 iteration: 5083 ====================
-test acc: 82.820%, test adv acc: 0.100%, spent: 224.330 s
+==================== evaluation at epoch: 13 iteration: 1274 ====================
+test acc: 85.150%, test adv acc: 0.410%, spent: 213.975 s, output margin in test: 0.812, output margin in val: 0.7727441767692995
 ============================ end of evaluation ============================
 
-epoch: 14, iter: 5100, lr=0.1, spent 254.98 s, tr_loss: 0.419
-standard acc: 84.375%, robustness acc: 0.000%
-epoch: 14, iter: 5200, lr=0.1, spent 30.41 s, tr_loss: 0.441
-standard acc: 85.156%, robustness acc: 0.000%
-epoch: 14, iter: 5300, lr=0.1, spent 30.39 s, tr_loss: 0.325
-standard acc: 90.625%, robustness acc: 0.000%
-epoch: 14, iter: 5400, lr=0.1, spent 30.39 s, tr_loss: 0.239
-standard acc: 92.969%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 14 iteration: 5474 ====================
-test acc: 84.060%, test adv acc: 0.200%, spent: 224.197 s
+==================== evaluation at epoch: 14 iteration: 1372 ====================
+test acc: 84.140%, test adv acc: 0.190%, spent: 214.276 s, output margin in test: 0.826, output margin in val: 0.7458183884480445
 ============================ end of evaluation ============================
 
-epoch: 15, iter: 5500, lr=0.1, spent 254.81 s, tr_loss: 0.295
-standard acc: 87.500%, robustness acc: 0.000%
-epoch: 15, iter: 5600, lr=0.1, spent 30.42 s, tr_loss: 0.328
-standard acc: 90.625%, robustness acc: 0.000%
-epoch: 15, iter: 5700, lr=0.1, spent 30.41 s, tr_loss: 0.187
-standard acc: 93.750%, robustness acc: 0.000%
-epoch: 15, iter: 5800, lr=0.1, spent 30.41 s, tr_loss: 0.298
-standard acc: 90.625%, robustness acc: 0.000%
 
-==================== evaluation at epoch: 15 iteration: 5865 ====================
-test acc: 86.960%, test adv acc: 0.080%, spent: 224.310 s
+==================== evaluation at epoch: 15 iteration: 1470 ====================
+test acc: 83.690%, test adv acc: 0.450%, spent: 213.477 s, output margin in test: 0.837, output margin in val: 0.7560903620078581
 ============================ end of evaluation ============================
 
-epoch: 16, iter: 5900, lr=0.1, spent 254.98 s, tr_loss: 0.318
-standard acc: 93.750%, robustness acc: 0.000%
-epoch: 16, iter: 6000, lr=0.1, spent 30.40 s, tr_loss: 0.306
-standard acc: 88.281%, robustness acc: 0.000%
-epoch: 16, iter: 6100, lr=0.1, spent 30.38 s, tr_loss: 0.310
-standard acc: 89.844%, robustness acc: 0.781%
-epoch: 16, iter: 6200, lr=0.1, spent 30.39 s, tr_loss: 0.275
-standard acc: 89.844%, robustness acc: 0.781%
+
+==================== evaluation at epoch: 16 iteration: 1568 ====================
+test acc: 85.900%, test adv acc: 0.110%, spent: 213.477 s, output margin in test: 0.844, output margin in val: 0.7804986760784526
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 17 iteration: 1666 ====================
+test acc: 86.890%, test adv acc: 0.360%, spent: 213.025 s, output margin in test: 0.850, output margin in val: 0.7903911415214128
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 18 iteration: 1764 ====================
+test acc: 85.580%, test adv acc: 0.230%, spent: 213.146 s, output margin in test: 0.864, output margin in val: 0.7761947276652453
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 19 iteration: 1862 ====================
+test acc: 88.290%, test adv acc: 0.350%, spent: 213.259 s, output margin in test: 0.864, output margin in val: 0.8086917955317658
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 20 iteration: 1960 ====================
+test acc: 75.920%, test adv acc: 1.190%, spent: 213.123 s, output margin in test: 0.871, output margin in val: 0.6951122882514267
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 21 iteration: 2058 ====================
+test acc: 87.720%, test adv acc: 0.090%, spent: 213.109 s, output margin in test: 0.873, output margin in val: 0.8068805472907751
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 22 iteration: 2156 ====================
+test acc: 86.850%, test adv acc: 0.180%, spent: 213.354 s, output margin in test: 0.885, output margin in val: 0.8064662855189375
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 23 iteration: 2254 ====================
+test acc: 86.770%, test adv acc: 0.100%, spent: 213.058 s, output margin in test: 0.890, output margin in val: 0.8007621868288889
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 24 iteration: 2352 ====================
+test acc: 89.380%, test adv acc: 0.080%, spent: 213.220 s, output margin in test: 0.891, output margin in val: 0.8212372816032277
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 25 iteration: 2450 ====================
+test acc: 85.540%, test adv acc: 0.090%, spent: 213.789 s, output margin in test: 0.898, output margin in val: 0.7974935179105136
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 26 iteration: 2548 ====================
+test acc: 86.990%, test adv acc: 0.150%, spent: 212.969 s, output margin in test: 0.903, output margin in val: 0.7982098468787785
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 27 iteration: 2646 ====================
+test acc: 89.120%, test adv acc: 0.130%, spent: 212.857 s, output margin in test: 0.904, output margin in val: 0.8326187057791616
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 28 iteration: 2744 ====================
+test acc: 86.990%, test adv acc: 0.200%, spent: 213.687 s, output margin in test: 0.905, output margin in val: 0.8154954816415546
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 29 iteration: 2842 ====================
+test acc: 87.560%, test adv acc: 0.240%, spent: 213.306 s, output margin in test: 0.912, output margin in val: 0.8198345026360488
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 30 iteration: 2940 ====================
+test acc: 89.140%, test adv acc: 0.220%, spent: 213.201 s, output margin in test: 0.909, output margin in val: 0.8274607290681925
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 31 iteration: 3038 ====================
+test acc: 87.410%, test adv acc: 0.060%, spent: 213.417 s, output margin in test: 0.921, output margin in val: 0.8186281582195808
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 32 iteration: 3136 ====================
+test acc: 88.640%, test adv acc: 0.140%, spent: 213.666 s, output margin in test: 0.920, output margin in val: 0.8355664209123397
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 33 iteration: 3234 ====================
+test acc: 89.300%, test adv acc: 0.040%, spent: 213.014 s, output margin in test: 0.920, output margin in val: 0.8369197722457328
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 34 iteration: 3332 ====================
+test acc: 87.730%, test adv acc: 0.120%, spent: 213.439 s, output margin in test: 0.924, output margin in val: 0.8210197048434098
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 35 iteration: 3430 ====================
+test acc: 89.950%, test adv acc: 0.020%, spent: 213.308 s, output margin in test: 0.927, output margin in val: 0.8520027524451295
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 36 iteration: 3528 ====================
+test acc: 90.150%, test adv acc: 0.030%, spent: 213.130 s, output margin in test: 0.926, output margin in val: 0.84867650984886
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 37 iteration: 3626 ====================
+test acc: 88.610%, test adv acc: 0.040%, spent: 213.368 s, output margin in test: 0.931, output margin in val: 0.8401481583926296
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 38 iteration: 3724 ====================
+test acc: 90.580%, test adv acc: 0.080%, spent: 213.534 s, output margin in test: 0.931, output margin in val: 0.8619549920491744
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 39 iteration: 3822 ====================
+test acc: 90.020%, test adv acc: 0.070%, spent: 213.594 s, output margin in test: 0.932, output margin in val: 0.8552858481736204
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 40 iteration: 3920 ====================
+test acc: 90.320%, test adv acc: 0.110%, spent: 213.499 s, output margin in test: 0.935, output margin in val: 0.8604499326560153
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 41 iteration: 4018 ====================
+test acc: 88.490%, test adv acc: 0.090%, spent: 213.817 s, output margin in test: 0.935, output margin in val: 0.838173864940612
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 42 iteration: 4116 ====================
+test acc: 88.800%, test adv acc: 0.080%, spent: 213.388 s, output margin in test: 0.936, output margin in val: 0.8469293657614797
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 43 iteration: 4214 ====================
+test acc: 89.690%, test adv acc: 0.130%, spent: 213.123 s, output margin in test: 0.938, output margin in val: 0.8545718878138219
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 44 iteration: 4312 ====================
+test acc: 90.100%, test adv acc: 0.090%, spent: 213.226 s, output margin in test: 0.942, output margin in val: 0.8586270496142495
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 45 iteration: 4410 ====================
+test acc: 89.330%, test adv acc: 0.060%, spent: 213.154 s, output margin in test: 0.940, output margin in val: 0.8517133371193178
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 46 iteration: 4508 ====================
+test acc: 89.790%, test adv acc: 0.040%, spent: 213.342 s, output margin in test: 0.941, output margin in val: 0.8539557301642744
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 47 iteration: 4606 ====================
+test acc: 88.550%, test adv acc: 0.030%, spent: 213.355 s, output margin in test: 0.946, output margin in val: 0.8386840408582388
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 48 iteration: 4704 ====================
+test acc: 87.180%, test adv acc: 0.020%, spent: 213.035 s, output margin in test: 0.943, output margin in val: 0.8270789377929757
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 49 iteration: 4802 ====================
+test acc: 88.720%, test adv acc: 0.170%, spent: 213.117 s, output margin in test: 0.943, output margin in val: 0.8418021104476651
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 50 iteration: 4900 ====================
+test acc: 88.690%, test adv acc: 0.050%, spent: 213.202 s, output margin in test: 0.947, output margin in val: 0.8387855919144491
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 51 iteration: 4998 ====================
+test acc: 90.640%, test adv acc: 0.050%, spent: 213.022 s, output margin in test: 0.948, output margin in val: 0.8683232067248838
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 52 iteration: 5096 ====================
+test acc: 91.320%, test adv acc: 0.080%, spent: 213.045 s, output margin in test: 0.948, output margin in val: 0.8762755031016559
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 53 iteration: 5194 ====================
+test acc: 89.570%, test adv acc: 0.040%, spent: 212.971 s, output margin in test: 0.945, output margin in val: 0.8539207030576274
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 54 iteration: 5292 ====================
+test acc: 88.390%, test adv acc: 0.040%, spent: 213.033 s, output margin in test: 0.943, output margin in val: 0.8392753102627597
+============================ end of evaluation ============================
+
