@@ -70,33 +70,33 @@ class Trainer():
                 loss.backward()
                 opt.step()
 
-                if _iter % args.n_eval_step == 0:
+                # if _iter % args.n_eval_step == 0:
 
-                    if adv_train:
-                        with torch.no_grad():
-                            stand_output = model(data, _eval=True)
-                        pred = torch.max(stand_output, dim=1)[1]
+                    # if adv_train:
+                        # with torch.no_grad():
+                            # stand_output = model(data, _eval=True)
+                        # pred = torch.max(stand_output, dim=1)[1]
 
                         # print(pred)
-                        std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
+                        # std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
 
-                        pred = torch.max(output, dim=1)[1]
+                        # pred = torch.max(output, dim=1)[1]
                         # print(pred)
-                        adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
+                        # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
+# 
+                    # else:
+                        # adv_data = self.attack.perturb(data, label, 'mean', False)
 
-                    else:
-                        adv_data = self.attack.perturb(data, label, 'mean', False)
-
-                        with torch.no_grad():
-                            adv_output = model(adv_data, _eval=True)
-                        pred = torch.max(adv_output, dim=1)[1]
+                        # with torch.no_grad():
+                            # adv_output = model(adv_data, _eval=True)
+                        # pred = torch.max(adv_output, dim=1)[1]
                         # print(label)
                         # print(pred)
-                        adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
-
-                        pred = torch.max(output, dim=1)[1]
+                        # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
+# 
+                        # pred = torch.max(output, dim=1)[1]
                         # print(pred)
-                        std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
+                        # std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
 
                     # only calculating the training time
                     logger.info('epoch: %d, iter: %d, spent %.2f s, tr_loss: %.3f' % (
