@@ -83,7 +83,7 @@ class Trainer():
                         # pred = torch.max(output, dim=1)[1]
                         # print(pred)
                         # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
-# 
+ 
                     # else:
                         # adv_data = self.attack.perturb(data, label, 'mean', False)
 
@@ -92,28 +92,13 @@ class Trainer():
                         # pred = torch.max(adv_output, dim=1)[1]
                         # print(label)
                         # print(pred)
-                        # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
-# 
+                        # adv_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100 
                         # pred = torch.max(output, dim=1)[1]
                         # print(pred)
                         # std_acc = evaluate(pred.cpu().numpy(), label.cpu().numpy()) * 100
 
                     # only calculating the training time
-                    logger.info('epoch: %d, iter: %d, spent %.2f s, tr_loss: %.3f' % (
-                        epoch, _iter, time() - begin_time, loss.item()))
 
-                    logger.info('standard acc: %.3f %%, robustness acc: %.3f %%' % (
-                        std_acc, adv_acc))
-
-                    if va_loader is not None:
-                        va_acc, va_adv_acc, va_margin = self.test(model, va_loader, True)
-                        va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
-
-                        logger.info('\n' + '='*30 + ' evaluation ' + '='*30)
-                        logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, output margin in test: {output_margin_test / dataset_size:.3f}, output margin in val: {va_margin}')
-                        logger.info('='*28 + ' end of evaluation ' + '='*28 + '\n')
-
-                    begin_time = time()
 
                 # if _iter % args.n_store_image_step == 0:
                     # tv.utils.save_image(torch.cat([data.cpu(), adv_data.cpu()], dim=0), 
@@ -126,6 +111,22 @@ class Trainer():
                     save_model(model, file_name)
 
                 _iter += 1
+            
+            logger.info('epoch: %d, iter: %d, spent %.2f s, tr_loss: %.3f' % (
+                epoch, _iter, time() - begin_time, loss.item()))
+
+            logger.info('standard acc: %.3f %%, robustness acc: %.3f %%' % (
+                std_acc, adv_acc))
+
+            if va_loader is not None:
+                va_acc, va_adv_acc, va_margin = self.test(model, va_loader, True)
+                va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
+
+                logger.info('\n' + '='*30 + ' evaluation ' + '='*30)
+                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, output margin in test: {output_margin_test / dataset_size:.3f}, output margin in val: {va_margin}')
+                logger.info('='*28 + ' end of evaluation ' + '='*28 + '\n')
+
+            begin_time = time()
 
     def test(self, model, loader, adv_test=False):
         # adv_test is False, return adv_acc as -1 
