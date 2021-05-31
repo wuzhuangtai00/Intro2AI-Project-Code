@@ -3,9 +3,6 @@ Project of the course "Intro to AI".
 
 
 
-## 成员
-
-吴瑾昭 沈康宁
 
 ## 环境配置
 
