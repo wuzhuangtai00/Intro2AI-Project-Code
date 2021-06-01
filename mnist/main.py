@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
+import random
 
 import torchvision as tv
 
@@ -169,6 +170,7 @@ class Trainer():
         total_adv_acc = 0.0
         total_margin = 0
         total_all_layer = 0
+        cnt = 0
 
         with torch.no_grad():
             for data, label in loader:
@@ -188,7 +190,9 @@ class Trainer():
                     cy = label[i]
                     cx = cx.unsqueeze(dim = 0)
                     cy = cy.unsqueeze(dim = 0)
-                    total_all_layer += compute_all_layer_margin(self, model, cx, cy)
+                    if random.random() < 0.1:
+                        total_all_layer += compute_all_layer_margin(self, model, cx, cy)
+                        cnt += 1
 
                     x = output[i].clone()
                     y = label[i].item()
@@ -216,7 +220,7 @@ class Trainer():
                 else:
                     total_adv_acc = -num
 
-        return total_acc / num , total_adv_acc / num , total_margin / num, total_all_layer / num
+        return total_acc / num , total_adv_acc / num , total_margin / num, total_all_layer / cnt
 
 def main(args):
 
