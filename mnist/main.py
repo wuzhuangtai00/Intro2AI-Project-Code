@@ -20,7 +20,7 @@ def compute_all_layer_margin(self, model, data, label):
     r = 0.5
     for t in range(10):
         self.attack.epsilon = (l + r) / 2
-        output = self.attack.perturb(data, label, 'mean', True)
+        output = model(self.attack.perturb(data, label, 'mean', True))
         print(output, label)
         if (output == label):
             r = (l + r) / 2
@@ -183,9 +183,10 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     # print(i)
-
                     cx = data[i].clone()
-                    cy = label[i].item()
+                    cy = label[i]
+                    cx = cx.unsqueeze(dim = 0)
+                    cy = cy.unsqueeze(dim = 0)
                     total_all_layer += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
