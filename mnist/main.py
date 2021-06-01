@@ -14,12 +14,12 @@ from src.utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate
 from src.argument import parser, print_args
 
 def compute_all_layer_margin(self, model, data, label):
-    rem = self.epsilon
+    rem = self.attack.epsilon
 
     l = 0
     r = 0.5
     for t in range(10):
-        self.epsilon = (l + r) / 2
+        self.attck.epsilon = (l + r) / 2
         output = self.attack.perturb(data, label, 'mean', True)
         if (output == label):
             r  = (l + r) / 2
@@ -27,7 +27,7 @@ def compute_all_layer_margin(self, model, data, label):
             l = (l + r) / 2
     return (l + r) / 2
 
-    self.epsilon = rem
+    self.attack.epsilon = rem
 
 class Trainer():
     def __init__(self, args, logger, attack):
