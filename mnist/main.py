@@ -85,10 +85,10 @@ class Trainer():
                 for i in range(label.size()[0]):
                     cx = data[i].clone()
                     cy = label[i]
-                    # cx = cx.unsqueeze(dim = 0)
-                    # cy = cy.unsqueeze(dim = 0)
-                    print(data.size())
-                    print(cx.size())
+                    cx = cx.unsqueeze(dim = 0)
+                    cy = cy.unsqueeze(dim = 0)
+                    # print(data.size())
+                    # print(cx.size())
                     all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
