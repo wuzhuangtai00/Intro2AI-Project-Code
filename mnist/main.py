@@ -20,7 +20,7 @@ def compute_all_layer_margin(self, model, data, label):
     r = 0.5
     for t in range(10):
         self.attack.epsilon = (l + r) / 2
-        output = torch.max(model(self.attack.perturb(data, label, 'mean', True)), dim=1)[1].item()
+        output = torch.max(model(self.attack.perturb(data, label, 'mean', True)), dim=1)[1]
 
         print(output, label)
         if (output == label):
@@ -85,9 +85,9 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     cx = data[i].clone()
-                    cy = label[i].item()
+                    cy = label[i]
                     cx = cx.unsqueeze(dim = 0)
-                    # cy = cy.unsqueeze(dim = 0)
+                    cy = cy.unsqueeze(dim = 0)
                     # print(data.size())
                     # print(cx.size())
                     all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
@@ -100,7 +100,7 @@ class Trainer():
                     val_other = torch.max(x).item()
                     dataset_size += 1
                     output_margin_test += max(0, val_l - val_other)
-                    # faq = model(x)
+                    faq = model(x)
 
 
                 opt.zero_grad()
@@ -187,7 +187,7 @@ class Trainer():
                     cx = data[i].clone()
                     cy = label[i]
                     cx = cx.unsqueeze(dim = 0)
-                    # cy = cy.unsqueeze(dim = 0)
+                    cy = cy.unsqueeze(dim = 0)
                     total_all_layer += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
