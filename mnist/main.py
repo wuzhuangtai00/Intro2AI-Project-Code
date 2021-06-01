@@ -25,9 +25,9 @@ def compute_all_layer_margin(self, model, data, label):
 
         # print(output.item(), label.item())
         if (output.item() == label.item()):
-            r = (l + r) / 2
-        else:
             l = (l + r) / 2
+        else:
+            r = (l + r) / 2
     return (l + r) / 2
 
     self.attack.epsilon = rem
