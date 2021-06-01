@@ -82,10 +82,10 @@ class Trainer():
                 train_acc += evaluate(pred.cpu().numpy(), label.cpu().numpy(), 'sum')
 
                 for i in range(label.size()[0]):
-                    print(data.size())
-                    print(cx.size())
                     cx = data[i].clone()
                     cy = label[i].item()
+                    print(data.size())
+                    print(cx.size())
                     all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
