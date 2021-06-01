@@ -18,7 +18,7 @@ def compute_all_layer_margin(self, model, data, label):
 
     l = 0
     r = 0.5
-    for t in range(10):
+    for t in range(8):
         self.attack.epsilon = (l + r) / 2
         output = torch.max(model(self.attack.perturb(data, label, 'mean', True)), dim=1)[1]
 
@@ -84,13 +84,13 @@ class Trainer():
                 train_acc += evaluate(pred.cpu().numpy(), label.cpu().numpy(), 'sum')
 
                 for i in range(label.size()[0]):
-                    cx = data[i].clone()
-                    cy = label[i]
-                    cx = cx.unsqueeze(dim = 0)
-                    cy = cy.unsqueeze(dim = 0)
+                    # cx = data[i].clone()
+                    # cy = label[i]
+                    # cx = cx.unsqueeze(dim = 0)
+                    # cy = cy.unsqueeze(dim = 0)
                     # print(data.size())
                     # print(cx.size())
-                    all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
+                    # all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
                     y = label[i].item()
