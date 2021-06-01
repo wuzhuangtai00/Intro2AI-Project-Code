@@ -30,7 +30,20 @@ class Trainer():
 
 
     def compute_all_layer_margin(self, model, data, label):
-        
+        rem = self.epsilon
+
+        l = 0, r = 0.5
+        for t in range(10):
+            self.epsilon = (l + r) / 2
+            output = self.attack.perturb(data, label, 'mean', True)
+            if (output == label):
+                r  = (l + r) / 2
+            else:
+                l = (l + r) / 2
+        return (l + r) / 2
+
+        self.epsilon = rem
+
 
     def train(self, model, tr_loader, va_loader=None, adv_train=False):
         args = self.args
@@ -46,6 +59,7 @@ class Trainer():
 
             output_margin_test = 0
             dataset_size = 0
+            all_layer_margin_test = 0
             train_acc = 0
 
             for data, label in tr_loader:
@@ -66,6 +80,10 @@ class Trainer():
                 train_acc += evaluate(pred.cpu().numpy(), label.cpu().numpy(), 'sum')
 
                 for i in range(label.size()[0]):
+                    cx = output[i].clone()
+                    cy = label[i].item().clone()
+                    all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
+
                     x = output[i].clone()
                     y = label[i].item()
                     x = F.softmax(x, dim = 0)
@@ -74,6 +92,7 @@ class Trainer():
                     val_other = torch.max(x).item()
                     dataset_size += 1
                     output_margin_test += max(0, val_l - val_other)
+                    faq = model(x)
 
 
                 opt.zero_grad()
@@ -123,12 +142,12 @@ class Trainer():
             save_model(model, file_name)
 
             if va_loader is not None:
-                va_acc, va_adv_acc, va_margin = self.test(model, va_loader, True)
+                va_acc, va_adv_acc, va_margin, va_layer = self.test(model, va_loader, True)
                 va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
 
                 logger.info('\n'+'='*20 +f' evaluation at epoch: {epoch} iteration: {_iter} ' \
                     +'='*20)
-                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, train acc: {train_acc * 100.0 / dataset_size :.3f}% output margin in test: {output_margin_test / dataset_size}, output margin in val: {va_margin}')
+                logger.info(f'test acc: {va_acc:.3f}%, test adv acc: {va_adv_acc:.3f}%, train acc: {train_acc * 100.0 / dataset_size :.3f}% output margin in test: {output_margin_test / dataset_size}, output margin in val: {va_margin}, all-layer margin in test: {all_layer_margin_test / dataset_size}, all-layer margin in val: {va_layer}')
                 logger.info('='*28 + ' end of evaluation ' + '='*28 + '\n')
 
             begin_time = time()
@@ -141,6 +160,7 @@ class Trainer():
         num = 0
         total_adv_acc = 0.0
         total_margin = 0
+        total_all_layer = 0
 
         with torch.no_grad():
             for data, label in loader:
@@ -156,6 +176,11 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     # print(i)
+
+                    cx = output[i].clone()
+                    cy = label[i].item().clone()
+                    total_all_layer += compute_all_layer_margin(self, model, cx, cy)
+
                     x = output[i].clone()
                     y = label[i].item()
                     x = F.softmax(x, dim = 0)
@@ -182,7 +207,7 @@ class Trainer():
                 else:
                     total_adv_acc = -num
 
-        return total_acc / num , total_adv_acc / num , total_margin / num
+        return total_acc / num , total_adv_acc / num , total_margin / num, total_all_layer / num
 
 def main(args):
 
