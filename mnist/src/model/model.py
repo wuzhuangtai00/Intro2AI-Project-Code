@@ -20,7 +20,7 @@ class Model(nn.Module):
         self.pool2 = nn.MaxPool2d((2, 2), stride=(2, 2), padding=0)
 
 
-        self.flatten = Expression(lambda tensor: tensor.view(tensor.shape[0], -1))
+        self.flatten = Expression(lambda tensor: tensor.view(tensor.shape[0], -1))  
         self.fc1 = nn.Linear(7 * 7 * 64, 1024, bias=True)
         self.fc2 = nn.Linear(1024, n_c)
 

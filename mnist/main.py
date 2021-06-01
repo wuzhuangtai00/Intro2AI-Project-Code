@@ -13,17 +13,24 @@ from src.utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate
 
 from src.argument import parser, print_args
 
+
 class Trainer():
     def __init__(self, args, logger, attack):
         self.args = args
         self.logger = logger
         self.attack = attack
+        
 
+     
     def standard_train(self, model, tr_loader, va_loader=None):
         self.train(model, tr_loader, va_loader, False)
 
     def adversarial_train(self, model, tr_loader, va_loader=None):
         self.train(model, tr_loader, va_loader, True)
+
+
+    def compute_all_layer_margin(self, model, data, label):
+        
 
     def train(self, model, tr_loader, va_loader=None, adv_train=False):
         args = self.args
