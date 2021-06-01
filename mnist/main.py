@@ -32,7 +32,8 @@ class Trainer():
     def compute_all_layer_margin(self, model, data, label):
         rem = self.epsilon
 
-        l = 0, r = 0.5
+        l = 0
+        r = 0.5
         for t in range(10):
             self.epsilon = (l + r) / 2
             output = self.attack.perturb(data, label, 'mean', True)
