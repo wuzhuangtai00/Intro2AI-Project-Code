@@ -28,9 +28,11 @@ def compute_all_layer_margin(self, model, data, label):
             l = (l + r) / 2
         else:
             r = (l + r) / 2
-    return (l + r) / 2
 
     self.attack.epsilon = rem
+
+    return (l + r) / 2
+
 
 class Trainer():
     def __init__(self, args, logger, attack):
