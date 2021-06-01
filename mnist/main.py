@@ -19,7 +19,7 @@ def compute_all_layer_margin(self, model, data, label):
     l = 0
     r = 0.5
     for t in range(10):
-        self.attck.epsilon = (l + r) / 2
+        self.attack.epsilon = (l + r) / 2
         output = self.attack.perturb(data, label, 'mean', True)
         if (output == label):
             r  = (l + r) / 2
