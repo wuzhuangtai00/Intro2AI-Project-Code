@@ -186,7 +186,7 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     # print(i)
-                    if random.random() < 0:
+                    if random.random() < 0.1:
                         cx = data[i].clone()
                         cy = label[i]
                         cx = cx.unsqueeze(dim = 0)
