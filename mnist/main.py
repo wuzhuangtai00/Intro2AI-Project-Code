@@ -22,7 +22,7 @@ def compute_all_layer_margin(self, model, data, label):
         self.attack.epsilon = (l + r) / 2
         output = self.attack.perturb(data, label, 'mean', True)
         if (output == label):
-            r  = (l + r) / 2
+            r = (l + r) / 2
         else:
             l = (l + r) / 2
     return (l + r) / 2
@@ -66,6 +66,7 @@ class Trainer():
             for data, label in tr_loader:
                 data, label = tensor2cuda(data), tensor2cuda(label)
 
+
                 if adv_train:
                     # When training, the adversarial example is created from a random 
                     # close point to the original data point. If in evaluation mode, 
@@ -81,6 +82,8 @@ class Trainer():
                 train_acc += evaluate(pred.cpu().numpy(), label.cpu().numpy(), 'sum')
 
                 for i in range(label.size()[0]):
+                    print(data.size())
+                    print(cx.size())
                     cx = data[i].clone()
                     cy = label[i].item()
                     all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
