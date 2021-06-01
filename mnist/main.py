@@ -23,7 +23,7 @@ def compute_all_layer_margin(self, model, data, label):
         output = torch.max(model(self.attack.perturb(data, label, 'mean', True)), dim=1)[1]
 
         print(output.item(), label.item())
-        if (output == label):
+        if (output.item() == label.item()):
             r = (l + r) / 2
         else:
             l = (l + r) / 2
@@ -100,7 +100,7 @@ class Trainer():
                     val_other = torch.max(x).item()
                     dataset_size += 1
                     output_margin_test += max(0, val_l - val_other)
-                    faq = model(x)
+                    # faq = model(x)
 
 
                 opt.zero_grad()
