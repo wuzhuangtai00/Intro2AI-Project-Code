@@ -186,11 +186,11 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     # print(i)
-                    cx = data[i].clone()
-                    cy = label[i]
-                    cx = cx.unsqueeze(dim = 0)
-                    cy = cy.unsqueeze(dim = 0)
-                    if random.random() < 0.1:
+                    if random.random() < 0:
+                        cx = data[i].clone()
+                        cy = label[i]
+                        cx = cx.unsqueeze(dim = 0)
+                        cy = cy.unsqueeze(dim = 0)
                         total_all_layer += compute_all_layer_margin(self, model, cx, cy)
                         cnt += 1
 
