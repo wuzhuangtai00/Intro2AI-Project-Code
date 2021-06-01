@@ -83,7 +83,7 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     cx = data[i].clone()
-                    cy = label[i].item()
+                    cy = label[i]
                     cx = cx.unsqueeze(dim = 0)
                     print(data.size())
                     print(cx.size())
