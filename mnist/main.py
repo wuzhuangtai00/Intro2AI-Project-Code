@@ -82,7 +82,7 @@ class Trainer():
 
                 for i in range(label.size()[0]):
                     cx = output[i].clone()
-                    cy = label[i].item().clone()
+                    cy = label[i].item()
                     all_layer_margin_test += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
@@ -179,7 +179,7 @@ class Trainer():
                     # print(i)
 
                     cx = output[i].clone()
-                    cy = label[i].item().clone()
+                    cy = label[i].item()
                     total_all_layer += compute_all_layer_margin(self, model, cx, cy)
 
                     x = output[i].clone()
