@@ -21,11 +21,1001 @@ log_folder       : log/mnist_std
 model_folder     : /root/checkpoint/mnist_std
 
 ==================== evaluation at epoch: 1 iteration: 118 ====================
-test acc: 91.600%, test adv acc: 3.390%, train acc: 78.907% output margin in test: 0.410, output margin in val: 0.7432387774185331
+test acc: 90.230%, test adv acc: 3.610%, train acc: 78.253% output margin in test: 0.3851795774656356, output margin in val: 0.7201334354917992
 ============================ end of evaluation ============================
 
 
 ==================== evaluation at epoch: 2 iteration: 236 ====================
-test acc: 94.220%, test adv acc: 2.850%, train acc: 92.568% output margin in test: 0.792, output margin in val: 0.8393375987382496
+test acc: 93.870%, test adv acc: 2.900%, train acc: 91.932% output margin in test: 0.7743802429030568, output margin in val: 0.8312781951581172
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 3 iteration: 354 ====================
+test acc: 95.740%, test adv acc: 2.230%, train acc: 94.380% output margin in test: 0.8458272610989219, output margin in val: 0.8752976049661491
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 4 iteration: 472 ====================
+test acc: 96.850%, test adv acc: 1.770%, train acc: 95.863% output margin in test: 0.8839573449521371, output margin in val: 0.9065498498181928
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 5 iteration: 590 ====================
+test acc: 97.440%, test adv acc: 1.510%, train acc: 96.793% output margin in test: 0.9088875098527318, output margin in val: 0.9218283545729588
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 6 iteration: 708 ====================
+test acc: 97.670%, test adv acc: 1.450%, train acc: 97.385% output margin in test: 0.9237029452400137, output margin in val: 0.9347592868031374
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 7 iteration: 826 ====================
+test acc: 98.030%, test adv acc: 1.280%, train acc: 97.773% output margin in test: 0.9343254340895402, output margin in val: 0.9442058294000605
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 8 iteration: 944 ====================
+test acc: 98.050%, test adv acc: 1.310%, train acc: 98.058% output margin in test: 0.9419091329146252, output margin in val: 0.9471988376119718
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 9 iteration: 1062 ====================
+test acc: 98.080%, test adv acc: 1.280%, train acc: 98.145% output margin in test: 0.9470794095146821, output margin in val: 0.94928762343664
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 10 iteration: 1180 ====================
+test acc: 98.440%, test adv acc: 1.130%, train acc: 98.360% output margin in test: 0.95144522881803, output margin in val: 0.9558496580268269
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 11 iteration: 1298 ====================
+test acc: 98.260%, test adv acc: 1.020%, train acc: 98.513% output margin in test: 0.9554921054226401, output margin in val: 0.9554880250075936
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 12 iteration: 1416 ====================
+test acc: 98.390%, test adv acc: 1.160%, train acc: 98.587% output margin in test: 0.9584332384794858, output margin in val: 0.9590530758236071
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 13 iteration: 1534 ====================
+test acc: 98.650%, test adv acc: 0.980%, train acc: 98.735% output margin in test: 0.9617404548493134, output margin in val: 0.9650335058525729
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 14 iteration: 1652 ====================
+test acc: 98.570%, test adv acc: 0.930%, train acc: 98.815% output margin in test: 0.9637196231873151, output margin in val: 0.9645367748935679
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 15 iteration: 1770 ====================
+test acc: 98.830%, test adv acc: 0.830%, train acc: 98.918% output margin in test: 0.9661171871027158, output margin in val: 0.9688307980339379
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 16 iteration: 1888 ====================
+test acc: 98.780%, test adv acc: 0.820%, train acc: 98.972% output margin in test: 0.9680475222224859, output margin in val: 0.96834621216706
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 17 iteration: 2006 ====================
+test acc: 98.740%, test adv acc: 0.850%, train acc: 98.975% output margin in test: 0.9692759962988146, output margin in val: 0.9679084356788903
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 18 iteration: 2124 ====================
+test acc: 98.810%, test adv acc: 0.950%, train acc: 99.115% output margin in test: 0.9713090626449168, output margin in val: 0.9696564806366745
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 19 iteration: 2242 ====================
+test acc: 98.760%, test adv acc: 0.920%, train acc: 99.122% output margin in test: 0.9727550811119613, output margin in val: 0.9708146567485095
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 20 iteration: 2360 ====================
+test acc: 98.930%, test adv acc: 0.800%, train acc: 99.160% output margin in test: 0.973736433835725, output margin in val: 0.9715596831679192
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 21 iteration: 2478 ====================
+test acc: 98.760%, test adv acc: 0.880%, train acc: 99.193% output margin in test: 0.9746285433435228, output margin in val: 0.9697566776242089
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 22 iteration: 2596 ====================
+test acc: 99.030%, test adv acc: 0.700%, train acc: 99.273% output margin in test: 0.9763289616991903, output margin in val: 0.9753534567961853
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 23 iteration: 2714 ====================
+test acc: 98.860%, test adv acc: 0.830%, train acc: 99.323% output margin in test: 0.977313184090144, output margin in val: 0.9715818842423146
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 24 iteration: 2832 ====================
+test acc: 99.080%, test adv acc: 0.720%, train acc: 99.328% output margin in test: 0.9779770814425112, output margin in val: 0.9769428248281834
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 25 iteration: 2950 ====================
+test acc: 99.120%, test adv acc: 0.650%, train acc: 99.352% output margin in test: 0.979514676720155, output margin in val: 0.9772544560040438
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 26 iteration: 3068 ====================
+test acc: 99.140%, test adv acc: 0.650%, train acc: 99.382% output margin in test: 0.9800226117529118, output margin in val: 0.9779089985452541
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 27 iteration: 3186 ====================
+test acc: 99.070%, test adv acc: 0.680%, train acc: 99.447% output margin in test: 0.9813889568345313, output margin in val: 0.9771292344964915
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 28 iteration: 3304 ====================
+test acc: 99.090%, test adv acc: 0.710%, train acc: 99.462% output margin in test: 0.9813301989366429, output margin in val: 0.9796303852166705
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 29 iteration: 3422 ====================
+test acc: 99.070%, test adv acc: 0.740%, train acc: 99.492% output margin in test: 0.9826219947882495, output margin in val: 0.9780275143145495
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 30 iteration: 3540 ====================
+test acc: 99.050%, test adv acc: 0.790%, train acc: 99.503% output margin in test: 0.9830225775510133, output margin in val: 0.9785548699775887
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 31 iteration: 3658 ====================
+test acc: 99.130%, test adv acc: 0.670%, train acc: 99.590% output margin in test: 0.9840883190124388, output margin in val: 0.9802013778135582
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 32 iteration: 3776 ====================
+test acc: 99.100%, test adv acc: 0.700%, train acc: 99.585% output margin in test: 0.9849579524631524, output margin in val: 0.98048810432059
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 33 iteration: 3894 ====================
+test acc: 99.130%, test adv acc: 0.670%, train acc: 99.598% output margin in test: 0.9849080185252163, output margin in val: 0.9810079529131144
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 34 iteration: 4012 ====================
+test acc: 99.080%, test adv acc: 0.690%, train acc: 99.630% output margin in test: 0.9860065548163434, output margin in val: 0.9802693039509133
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 35 iteration: 4130 ====================
+test acc: 99.170%, test adv acc: 0.620%, train acc: 99.685% output margin in test: 0.9865791997949697, output margin in val: 0.9814528696840925
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 36 iteration: 4248 ====================
+test acc: 99.160%, test adv acc: 0.680%, train acc: 99.693% output margin in test: 0.9872885190434288, output margin in val: 0.982259304229271
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 37 iteration: 4366 ====================
+test acc: 99.160%, test adv acc: 0.650%, train acc: 99.690% output margin in test: 0.9874492183228122, output margin in val: 0.9823606971697436
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 38 iteration: 4484 ====================
+test acc: 99.260%, test adv acc: 0.570%, train acc: 99.713% output margin in test: 0.988014108827546, output margin in val: 0.9825571167277063
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 39 iteration: 4602 ====================
+test acc: 99.210%, test adv acc: 0.650%, train acc: 99.735% output margin in test: 0.9889630754503644, output margin in val: 0.9834195542590533
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 40 iteration: 4720 ====================
+test acc: 99.210%, test adv acc: 0.600%, train acc: 99.772% output margin in test: 0.9894129800736353, output margin in val: 0.9826473327956678
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 41 iteration: 4838 ====================
+test acc: 99.110%, test adv acc: 0.690%, train acc: 99.783% output margin in test: 0.9900662443366152, output margin in val: 0.9827100823246987
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 42 iteration: 4956 ====================
+test acc: 99.070%, test adv acc: 0.810%, train acc: 99.792% output margin in test: 0.9900433603014194, output margin in val: 0.9816327955763551
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 43 iteration: 5074 ====================
+test acc: 99.120%, test adv acc: 0.710%, train acc: 99.782% output margin in test: 0.9904328619531592, output margin in val: 0.9831454088711064
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 44 iteration: 5192 ====================
+test acc: 99.180%, test adv acc: 0.710%, train acc: 99.827% output margin in test: 0.9912502277231751, output margin in val: 0.9844630910552934
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 45 iteration: 5310 ====================
+test acc: 99.200%, test adv acc: 0.650%, train acc: 99.787% output margin in test: 0.9909138159911415, output margin in val: 0.9844940013797917
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 46 iteration: 5428 ====================
+test acc: 99.200%, test adv acc: 0.650%, train acc: 99.853% output margin in test: 0.9923512054208036, output margin in val: 0.9847562373064953
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 47 iteration: 5546 ====================
+test acc: 99.230%, test adv acc: 0.620%, train acc: 99.863% output margin in test: 0.9927288651793572, output margin in val: 0.9846449326640857
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 48 iteration: 5664 ====================
+test acc: 99.170%, test adv acc: 0.650%, train acc: 99.902% output margin in test: 0.9934051790733273, output margin in val: 0.9847261413350632
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 49 iteration: 5782 ====================
+test acc: 99.170%, test adv acc: 0.700%, train acc: 99.895% output margin in test: 0.9936096845316038, output margin in val: 0.9843810075677476
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 50 iteration: 5900 ====================
+test acc: 99.030%, test adv acc: 0.790%, train acc: 99.815% output margin in test: 0.9919281047650135, output margin in val: 0.9817868779371254
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 51 iteration: 6018 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 99.912% output margin in test: 0.9935363956256266, output margin in val: 0.9851535593802975
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 52 iteration: 6136 ====================
+test acc: 99.240%, test adv acc: 0.660%, train acc: 99.923% output margin in test: 0.9945789193405096, output margin in val: 0.9859742030555065
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 53 iteration: 6254 ====================
+test acc: 99.100%, test adv acc: 0.770%, train acc: 99.907% output margin in test: 0.9945059952416592, output margin in val: 0.9842942839207351
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 54 iteration: 6372 ====================
+test acc: 99.160%, test adv acc: 0.720%, train acc: 99.915% output margin in test: 0.9945727365984238, output margin in val: 0.9861527509538464
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 55 iteration: 6490 ====================
+test acc: 99.210%, test adv acc: 0.690%, train acc: 99.907% output margin in test: 0.9947307364829923, output margin in val: 0.9857700061408147
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 56 iteration: 6608 ====================
+test acc: 99.070%, test adv acc: 0.790%, train acc: 99.895% output margin in test: 0.994398743126407, output margin in val: 0.9840534018846294
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 57 iteration: 6726 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 99.930% output margin in test: 0.9952618064355586, output margin in val: 0.9866555103830417
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 58 iteration: 6844 ====================
+test acc: 99.260%, test adv acc: 0.610%, train acc: 99.935% output margin in test: 0.9957086496487277, output margin in val: 0.9864331186790319
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 59 iteration: 6962 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 99.962% output margin in test: 0.9962387705545321, output margin in val: 0.9865064616126609
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 60 iteration: 7080 ====================
+test acc: 99.210%, test adv acc: 0.640%, train acc: 99.968% output margin in test: 0.9967247374112201, output margin in val: 0.9859814341508772
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 61 iteration: 7198 ====================
+test acc: 99.150%, test adv acc: 0.710%, train acc: 99.967% output margin in test: 0.9969043178858747, output margin in val: 0.9864884688036464
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 62 iteration: 7316 ====================
+test acc: 99.140%, test adv acc: 0.670%, train acc: 99.970% output margin in test: 0.99668483267256, output margin in val: 0.9858019290300399
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 63 iteration: 7434 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 99.945% output margin in test: 0.9962216951095655, output margin in val: 0.9870620609718559
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 64 iteration: 7552 ====================
+test acc: 99.250%, test adv acc: 0.640%, train acc: 99.937% output margin in test: 0.9960987191443474, output margin in val: 0.9871145418044176
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 65 iteration: 7670 ====================
+test acc: 99.140%, test adv acc: 0.730%, train acc: 99.963% output margin in test: 0.9969216691490181, output margin in val: 0.985785927297671
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 66 iteration: 7788 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 99.942% output margin in test: 0.9961677091959629, output margin in val: 0.9876757762651237
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 67 iteration: 7906 ====================
+test acc: 99.150%, test adv acc: 0.680%, train acc: 99.982% output margin in test: 0.9976799563094542, output margin in val: 0.9873234420113617
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 68 iteration: 8024 ====================
+test acc: 99.180%, test adv acc: 0.650%, train acc: 99.960% output margin in test: 0.9973160306308801, output margin in val: 0.987183030927766
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 69 iteration: 8142 ====================
+test acc: 99.150%, test adv acc: 0.720%, train acc: 99.987% output margin in test: 0.997796605478094, output margin in val: 0.9872292389977003
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 70 iteration: 8260 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 99.988% output margin in test: 0.9982988112866472, output margin in val: 0.9874955529097585
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 71 iteration: 8378 ====================
+test acc: 99.210%, test adv acc: 0.660%, train acc: 99.980% output margin in test: 0.9978919950215023, output margin in val: 0.987657842513694
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 72 iteration: 8496 ====================
+test acc: 99.210%, test adv acc: 0.630%, train acc: 99.988% output margin in test: 0.9982566340019503, output margin in val: 0.9876650748252359
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 73 iteration: 8614 ====================
+test acc: 99.230%, test adv acc: 0.630%, train acc: 99.945% output margin in test: 0.9967165474847953, output margin in val: 0.9871308017514618
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 74 iteration: 8732 ====================
+test acc: 99.130%, test adv acc: 0.770%, train acc: 99.973% output margin in test: 0.9979894124753157, output margin in val: 0.9870639929772577
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 75 iteration: 8850 ====================
+test acc: 99.220%, test adv acc: 0.650%, train acc: 99.990% output margin in test: 0.9986024293166361, output margin in val: 0.9881209542674929
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 76 iteration: 8968 ====================
+test acc: 99.210%, test adv acc: 0.620%, train acc: 99.997% output margin in test: 0.9989094888949135, output margin in val: 0.9877899618298607
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 77 iteration: 9086 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 99.992% output margin in test: 0.9987487926515511, output margin in val: 0.9882040515135548
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 78 iteration: 9204 ====================
+test acc: 99.240%, test adv acc: 0.650%, train acc: 99.998% output margin in test: 0.9990642599224978, output margin in val: 0.9884778820814918
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 79 iteration: 9322 ====================
+test acc: 99.180%, test adv acc: 0.710%, train acc: 99.998% output margin in test: 0.9992299732099016, output margin in val: 0.9882959134387833
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 80 iteration: 9440 ====================
+test acc: 99.240%, test adv acc: 0.610%, train acc: 99.987% output margin in test: 0.9988036012584169, output margin in val: 0.9882800945023468
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 81 iteration: 9558 ====================
+test acc: 99.130%, test adv acc: 0.630%, train acc: 99.987% output margin in test: 0.9985789690331531, output margin in val: 0.9868197259941098
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 82 iteration: 9676 ====================
+test acc: 99.110%, test adv acc: 0.760%, train acc: 99.788% output margin in test: 0.9943146323345144, output margin in val: 0.9862933679320862
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 83 iteration: 9794 ====================
+test acc: 99.180%, test adv acc: 0.680%, train acc: 99.862% output margin in test: 0.9952461277025626, output margin in val: 0.987981602434734
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 84 iteration: 9912 ====================
+test acc: 99.260%, test adv acc: 0.580%, train acc: 99.987% output margin in test: 0.9982970739020247, output margin in val: 0.9884291011106309
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 85 iteration: 10030 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9990838172950607, output margin in val: 0.988611283386775
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 86 iteration: 10148 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9992554826030439, output margin in val: 0.9885249021831342
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 87 iteration: 10266 ====================
+test acc: 99.260%, test adv acc: 0.600%, train acc: 100.000% output margin in test: 0.9993444194408851, output margin in val: 0.9884028729206759
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 88 iteration: 10384 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9994312650201314, output margin in val: 0.9885379737144588
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 89 iteration: 10502 ====================
+test acc: 99.210%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9994605298386682, output margin in val: 0.9887994202643362
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 90 iteration: 10620 ====================
+test acc: 99.240%, test adv acc: 0.650%, train acc: 99.998% output margin in test: 0.9994696874097475, output margin in val: 0.9889193404568918
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 91 iteration: 10738 ====================
+test acc: 99.220%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9995077640184498, output margin in val: 0.9888397518790938
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 92 iteration: 10856 ====================
+test acc: 99.200%, test adv acc: 0.680%, train acc: 100.000% output margin in test: 0.9995402427904992, output margin in val: 0.988943591815871
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 93 iteration: 10974 ====================
+test acc: 99.210%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9995576134092409, output margin in val: 0.988799319453363
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 94 iteration: 11092 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9996047740579045, output margin in val: 0.9888441466201543
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 95 iteration: 11210 ====================
+test acc: 99.180%, test adv acc: 0.720%, train acc: 100.000% output margin in test: 0.9995432570810905, output margin in val: 0.9886720265383683
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 96 iteration: 11328 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.99962190024095, output margin in val: 0.9890084346109188
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 97 iteration: 11446 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9996723311791121, output margin in val: 0.9888589861450079
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 98 iteration: 11564 ====================
+test acc: 99.220%, test adv acc: 0.640%, train acc: 99.998% output margin in test: 0.9996282943861698, output margin in val: 0.9889710622831348
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 99 iteration: 11682 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 99.990% output margin in test: 0.9994161227029903, output margin in val: 0.9888582272079098
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 100 iteration: 11800 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9996723917051448, output margin in val: 0.989163323922707
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 101 iteration: 11918 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9996999802253168, output margin in val: 0.9890107582321829
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 102 iteration: 12036 ====================
+test acc: 99.160%, test adv acc: 0.710%, train acc: 100.000% output margin in test: 0.9996691337788702, output margin in val: 0.9885041147311624
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 103 iteration: 12154 ====================
+test acc: 98.800%, test adv acc: 0.890%, train acc: 99.747% output margin in test: 0.9943513151879996, output margin in val: 0.9819367106218482
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 104 iteration: 12272 ====================
+test acc: 99.090%, test adv acc: 0.770%, train acc: 99.875% output margin in test: 0.9959567931812647, output margin in val: 0.9869900736617523
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 105 iteration: 12390 ====================
+test acc: 99.220%, test adv acc: 0.650%, train acc: 99.997% output margin in test: 0.9988651544847378, output margin in val: 0.9881751018684903
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 106 iteration: 12508 ====================
+test acc: 99.210%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9994162516446639, output margin in val: 0.9883096419370304
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 107 iteration: 12626 ====================
+test acc: 99.240%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9995871500968758, output margin in val: 0.988921307278332
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 108 iteration: 12744 ====================
+test acc: 99.220%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9996256999825303, output margin in val: 0.9887418318431229
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 109 iteration: 12862 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9996873439167328, output margin in val: 0.9892531044989153
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 110 iteration: 12980 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9997090358228876, output margin in val: 0.9889103611402738
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 111 iteration: 13098 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9997320836479074, output margin in val: 0.9891955714747
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 112 iteration: 13216 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9997526136905637, output margin in val: 0.9894358215208938
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 113 iteration: 13334 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9997535038086034, output margin in val: 0.9892960806005187
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 114 iteration: 13452 ====================
+test acc: 99.250%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9997871423239602, output margin in val: 0.9893459383849255
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 115 iteration: 13570 ====================
+test acc: 99.230%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.999780763904465, output margin in val: 0.989353673371073
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 116 iteration: 13688 ====================
+test acc: 99.220%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9998096861015746, output margin in val: 0.9893095834412068
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 117 iteration: 13806 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9997942397091095, output margin in val: 0.9893179505874783
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 118 iteration: 13924 ====================
+test acc: 99.210%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9998345955527462, output margin in val: 0.9894244525972056
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 119 iteration: 14042 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998429226872075, output margin in val: 0.9895279078899741
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 120 iteration: 14160 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9998486885318083, output margin in val: 0.9894984555996882
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 121 iteration: 14278 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9998516432177321, output margin in val: 0.9895370260377365
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 122 iteration: 14396 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9998532426211779, output margin in val: 0.9891859160238359
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 123 iteration: 14514 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998626585457728, output margin in val: 0.9894424740644127
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 124 iteration: 14632 ====================
+test acc: 99.250%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9998748887107556, output margin in val: 0.9893832048989487
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 125 iteration: 14750 ====================
+test acc: 99.220%, test adv acc: 0.680%, train acc: 100.000% output margin in test: 0.9998806855347507, output margin in val: 0.9895512432014423
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 126 iteration: 14868 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998860904413206, output margin in val: 0.9895344003048162
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 127 iteration: 14986 ====================
+test acc: 99.240%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9998891865702464, output margin in val: 0.989572583043743
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 128 iteration: 15104 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998991085701251, output margin in val: 0.9894791620335731
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 129 iteration: 15222 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999001918661967, output margin in val: 0.9894257956302294
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 130 iteration: 15340 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999062868536543, output margin in val: 0.989480725078931
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 131 iteration: 15458 ====================
+test acc: 99.220%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999005482166968, output margin in val: 0.9895728098531892
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 132 iteration: 15576 ====================
+test acc: 99.210%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9999065486142653, output margin in val: 0.9895456752182518
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 133 iteration: 15694 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999148232060763, output margin in val: 0.9895669393427319
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 134 iteration: 15812 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999264848483042, output margin in val: 0.9897149386603734
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 135 iteration: 15930 ====================
+test acc: 99.230%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9999268755262504, output margin in val: 0.9894236434929793
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 136 iteration: 16048 ====================
+test acc: 99.210%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999283397929589, output margin in val: 0.9894416864062893
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 137 iteration: 16166 ====================
+test acc: 99.210%, test adv acc: 0.680%, train acc: 100.000% output margin in test: 0.9999314557082593, output margin in val: 0.9896087358213399
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 138 iteration: 16284 ====================
+test acc: 99.100%, test adv acc: 0.650%, train acc: 99.625% output margin in test: 0.9930946344009098, output margin in val: 0.9856931084516171
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 139 iteration: 16402 ====================
+test acc: 99.210%, test adv acc: 0.650%, train acc: 99.935% output margin in test: 0.9972005806272713, output margin in val: 0.9884195306070195
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 140 iteration: 16520 ====================
+test acc: 99.150%, test adv acc: 0.730%, train acc: 99.995% output margin in test: 0.999152329826148, output margin in val: 0.9876862933968114
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 141 iteration: 16638 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9995745592268042, output margin in val: 0.9891009041919513
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 142 iteration: 16756 ====================
+test acc: 99.220%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9996939799425644, output margin in val: 0.9890136081182882
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 143 iteration: 16874 ====================
+test acc: 99.240%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9997482190352205, output margin in val: 0.9891108212758613
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 144 iteration: 16992 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.999785455446642, output margin in val: 0.9892187285783959
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 145 iteration: 17110 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9998066924870497, output margin in val: 0.9891410077719053
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 146 iteration: 17228 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998271414381664, output margin in val: 0.9891976265049619
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 147 iteration: 17346 ====================
+test acc: 99.260%, test adv acc: 0.600%, train acc: 100.000% output margin in test: 0.9998390284038251, output margin in val: 0.9892277839823682
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 148 iteration: 17464 ====================
+test acc: 99.250%, test adv acc: 0.610%, train acc: 100.000% output margin in test: 0.999852706769901, output margin in val: 0.9893396573314686
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 149 iteration: 17582 ====================
+test acc: 99.220%, test adv acc: 0.690%, train acc: 100.000% output margin in test: 0.9998677842589636, output margin in val: 0.9892083984760937
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 150 iteration: 17700 ====================
+test acc: 99.230%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9998779850074406, output margin in val: 0.9892989204559668
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 151 iteration: 17818 ====================
+test acc: 99.240%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9998843807578528, output margin in val: 0.9893929514475305
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 152 iteration: 17936 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.999892072769667, output margin in val: 0.9893603882442343
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 153 iteration: 18054 ====================
+test acc: 99.230%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9999017262433699, output margin in val: 0.9894272574377857
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 154 iteration: 18172 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9999081415709179, output margin in val: 0.9894238995349508
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 155 iteration: 18290 ====================
+test acc: 99.220%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999111846684408, output margin in val: 0.9894262086760367
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 156 iteration: 18408 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.999914890558608, output margin in val: 0.9895155854111907
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 157 iteration: 18526 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999181880457653, output margin in val: 0.9894043464189294
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 158 iteration: 18644 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999267866882593, output margin in val: 0.9894769270679895
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 159 iteration: 18762 ====================
+test acc: 99.240%, test adv acc: 0.610%, train acc: 100.000% output margin in test: 0.999928821719644, output margin in val: 0.9895536575703209
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 160 iteration: 18880 ====================
+test acc: 99.210%, test adv acc: 0.680%, train acc: 100.000% output margin in test: 0.9999349650302095, output margin in val: 0.9895405537015087
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 161 iteration: 18998 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999375833368378, output margin in val: 0.9896121872321609
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 162 iteration: 19116 ====================
+test acc: 99.220%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999416598536204, output margin in val: 0.9896075530802692
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 163 iteration: 19234 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999415605088355, output margin in val: 0.9896622527271662
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 164 iteration: 19352 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999464583049802, output margin in val: 0.9897397647275046
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 165 iteration: 19470 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999508615925334, output margin in val: 0.9896728896076867
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 166 iteration: 19588 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999514019343684, output margin in val: 0.9897172863388678
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 167 iteration: 19706 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999544999236153, output margin in val: 0.9896901926905933
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 168 iteration: 19824 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999544602257544, output margin in val: 0.9896995060236741
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 169 iteration: 19942 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999571379605166, output margin in val: 0.9897934647230179
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 170 iteration: 20060 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.999959110895829, output margin in val: 0.9897453843966838
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 171 iteration: 20178 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9999625354181849, output margin in val: 0.9898059188600686
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 172 iteration: 20296 ====================
+test acc: 99.260%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9999634078585663, output margin in val: 0.9898260910265344
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 173 iteration: 20414 ====================
+test acc: 99.260%, test adv acc: 0.610%, train acc: 100.000% output margin in test: 0.9999654183128937, output margin in val: 0.9898667916480599
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 174 iteration: 20532 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999677087523363, output margin in val: 0.9897372136088377
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 175 iteration: 20650 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999675123014841, output margin in val: 0.9897844315654085
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 176 iteration: 20768 ====================
+test acc: 99.230%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999702043536784, output margin in val: 0.9897571475828286
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 177 iteration: 20886 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999705852902804, output margin in val: 0.9897897776503003
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 178 iteration: 21004 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999730235996547, output margin in val: 0.9898413152552005
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 179 iteration: 21122 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999738006438976, output margin in val: 0.989911855317411
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 180 iteration: 21240 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999732528598001, output margin in val: 0.9898198403720562
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 181 iteration: 21358 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999774780236506, output margin in val: 0.9898567722500362
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 182 iteration: 21476 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999769843323301, output margin in val: 0.9899047971693707
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 183 iteration: 21594 ====================
+test acc: 99.250%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999791735671995, output margin in val: 0.9899650298321568
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 184 iteration: 21712 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999801930912658, output margin in val: 0.9899496159958894
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 185 iteration: 21830 ====================
+test acc: 99.220%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9999815564888097, output margin in val: 0.989967468981204
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 186 iteration: 21948 ====================
+test acc: 99.230%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9999801506616489, output margin in val: 0.989980838853646
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 187 iteration: 22066 ====================
+test acc: 99.260%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999783552936237, output margin in val: 0.9899807869508591
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 188 iteration: 22184 ====================
+test acc: 99.160%, test adv acc: 0.690%, train acc: 99.705% output margin in test: 0.994923431009132, output margin in val: 0.9882525262068004
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 189 iteration: 22302 ====================
+test acc: 99.200%, test adv acc: 0.660%, train acc: 99.968% output margin in test: 0.9983640506678382, output margin in val: 0.9889229188599684
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 190 iteration: 22420 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 99.997% output margin in test: 0.9995145072025287, output margin in val: 0.9889613856965587
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 191 iteration: 22538 ====================
+test acc: 99.210%, test adv acc: 0.680%, train acc: 100.000% output margin in test: 0.9997965913768224, output margin in val: 0.9891706478344553
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 192 iteration: 22656 ====================
+test acc: 99.210%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998330902555276, output margin in val: 0.9892923024883162
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 193 iteration: 22774 ====================
+test acc: 99.250%, test adv acc: 0.620%, train acc: 100.000% output margin in test: 0.9998595552904213, output margin in val: 0.989531557827691
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 194 iteration: 22892 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.999874008089236, output margin in val: 0.9896141233536954
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 195 iteration: 23010 ====================
+test acc: 99.240%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9998904337112303, output margin in val: 0.9896392727340187
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 196 iteration: 23128 ====================
+test acc: 99.220%, test adv acc: 0.660%, train acc: 100.000% output margin in test: 0.9998965591335343, output margin in val: 0.9896697298296636
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 197 iteration: 23246 ====================
+test acc: 99.240%, test adv acc: 0.630%, train acc: 100.000% output margin in test: 0.9999114688403972, output margin in val: 0.9896877634291755
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 198 iteration: 23364 ====================
+test acc: 99.230%, test adv acc: 0.650%, train acc: 100.000% output margin in test: 0.9999174830662344, output margin in val: 0.9897505334742597
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 199 iteration: 23482 ====================
+test acc: 99.240%, test adv acc: 0.640%, train acc: 100.000% output margin in test: 0.9999239429033991, output margin in val: 0.9898289539397016
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 200 iteration: 23600 ====================
+test acc: 99.220%, test adv acc: 0.670%, train acc: 100.000% output margin in test: 0.9999294770146322, output margin in val: 0.9898237875294541
 ============================ end of evaluation ============================
 
