@@ -45,8 +45,8 @@ with open(file_name, 'r') as f:
             test_acc_list.append(float(splits[2]))
             train_acc_list.append(float(splits[9]))
             test_rob_list.append(float(splits[6]))
-            output_margin.append(float(splits[19]))
-            all_layer_margin.append(float(splits[29]))
+            output_margin.append(float(splits[19])) * 100
+            all_layer_margin.append(float(splits[29])) * 100
 
 print(output_margin)
 print(all_layer_margin)
