@@ -62,6 +62,6 @@ c_2 = plt.plot(test_iter_list, all_layer_margin , color='g', linestyle='--', lab
 
 plt.title(title)
 
-plt.legend(handles=[a_1, a_2, b_1, b_2])
+plt.legend(handles=[a_1, a_2, b_2, c_1, c_2])
 
 plt.savefig(os.path.join(img_folder, 'mnist_learning_curve_%s.jpg' % affix))
