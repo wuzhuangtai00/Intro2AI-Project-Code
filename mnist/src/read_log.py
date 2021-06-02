@@ -3,9 +3,9 @@ import os
 from utils import makedirs
 import matplotlib.pyplot as plt
 
-file_name = '../log/mnist_l2/train_log.txt'
-affix = 'l2'
-title = r'Adversarial Training'
+file_name = '../log/mnist_std/train_log.txt'
+affix = 'std'
+title = r'Standard Training'
 
 img_folder = '../img'
 makedirs(img_folder)
