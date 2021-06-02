@@ -61,6 +61,8 @@ c_1 = plt.plot(test_iter_list, output_margin , color='g', label='output margin')
 c_2 = plt.plot(test_iter_list, all_layer_margin , color='g', linestyle='--', label='all-layer margin')[0]
 
 plt.title(title)
+plt.ylim(0, 100)
+
 
 plt.legend(handles=[a_1, a_2, b_2, c_1, c_2])
 
