@@ -639,3 +639,28 @@ test acc: 99.290%, test adv acc: 99.190%, train acc: 100.000% output margin in t
 test acc: 99.300%, test adv acc: 99.150%, train acc: 99.998% output margin in test: 0.9997541070598406, output margin in val: 0.9905170514210496, all-layer margin in test: 0.0, all-layer margin in val: 0.48951518021120294
 ============================ end of evaluation ============================
 
+
+==================== evaluation at epoch: 125 iteration: 14750 ====================
+test acc: 99.080%, test adv acc: 98.830%, train acc: 99.733% output margin in test: 0.9943908228081111, output margin in val: 0.9863872498788627, all-layer margin in test: 0.0, all-layer margin in val: 0.4902735494269341
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 126 iteration: 14868 ====================
+test acc: 99.250%, test adv acc: 99.150%, train acc: 99.870% output margin in test: 0.9957416289434253, output margin in val: 0.9893898769231906, all-layer margin in test: 0.0, all-layer margin in val: 0.48955800097276264
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 127 iteration: 14986 ====================
+test acc: 99.310%, test adv acc: 99.210%, train acc: 99.990% output margin in test: 0.9987588539954876, output margin in val: 0.9904618958096567, all-layer margin in test: 0.0, all-layer margin in val: 0.4898251303376365
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 128 iteration: 15104 ====================
+test acc: 99.310%, test adv acc: 99.250%, train acc: 100.000% output margin in test: 0.999433373495532, output margin in val: 0.9907241566319086, all-layer margin in test: 0.0, all-layer margin in val: 0.49163061725206614
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 129 iteration: 15222 ====================
+test acc: 99.330%, test adv acc: 99.210%, train acc: 100.000% output margin in test: 0.99962744870976, output margin in val: 0.9907912907150601, all-layer margin in test: 0.0, all-layer margin in val: 0.4932774312627291
+============================ end of evaluation ============================
+
