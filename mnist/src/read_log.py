@@ -3,9 +3,9 @@ import os
 from utils import makedirs
 import matplotlib.pyplot as plt
 
-file_name = '../log/mnist_l2_adv/train_log.txt'
+file_name = '../log/mnist_std/train_log.txt'
 affix = 'l2'
-title = r'$l_2$ Training'
+title = r'Standard Training'
 
 img_folder = '../img'
 makedirs(img_folder)
@@ -17,6 +17,9 @@ train_rob_list = []
 test_iter_list = []
 test_acc_list = []
 test_rob_list = []
+
+epoch = 0
+
 
 with open(file_name, 'r') as f:
     lines = f.readlines()
@@ -33,7 +36,9 @@ with open(file_name, 'r') as f:
             train_rob_list.append(float(splits[5]))
 
         if splits[0] == 'test':
-            test_iter_list.append(_iter)
+            print(splits)
+            epoch += 1
+            test_iter_list.append(epoch)
             test_acc_list.append(float(splits[2]))
             test_rob_list.append(float(splits[6]))
 

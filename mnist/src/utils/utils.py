@@ -24,9 +24,9 @@ def tensor2cuda(tensor):
 
 def one_hot(ids, n_class):
     # --------------------- 
-    # author：ke1th 
-    # source：CSDN 
-    # artical：https://blog.csdn.net/u012436149/article/details/77017832 
+    #author: ke1th
+    # source: CSDN 
+    # artical: https://blog.csdn.net/u012436149/article/details/77017832 
     b"""
     ids: (list, ndarray) shape:[batch_size]
     out_tensor:FloatTensor shape:[batch_size, depth]
