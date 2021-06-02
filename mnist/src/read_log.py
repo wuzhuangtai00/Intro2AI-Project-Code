@@ -57,7 +57,7 @@ a_2 = plt.plot(test_iter_list, test_acc_list , color='r', linestyle='--', label=
 # b_1 = plt.plot(train_iter_list, train_rob_list , color='b', label='train robust accuary')[0]
 b_2 = plt.plot(test_iter_list, test_rob_list , color='b', linestyle='--', label='test robust accuary')[0]
 
-c_1 = plt.plot(test_iter_list, output_margin , color='g', linestyle='--', label='output margin')[0]
+c_1 = plt.plot(test_iter_list, output_margin , color='g', label='output margin')[0]
 c_2 = plt.plot(test_iter_list, all_layer_margin , color='g', linestyle='--', label='all-layer margin')[0]
 
 plt.title(title)
