@@ -4,7 +4,7 @@ from utils import makedirs
 import matplotlib.pyplot as plt
 
 file_name = '../log/mnist_std/train_log.txt'
-affix = 'l2'
+affix = 'std'
 title = r'Standard Training'
 
 img_folder = '../img'
