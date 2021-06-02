@@ -18,6 +18,9 @@ test_iter_list = []
 test_acc_list = []
 test_rob_list = []
 
+output_margin = []
+all_layer_margin = []
+
 epoch = 0
 
 
@@ -41,7 +44,9 @@ with open(file_name, 'r') as f:
             test_iter_list.append(epoch)
             test_acc_list.append(float(splits[2]))
             test_rob_list.append(float(splits[6]))
+            output_margin.append(float(splits[19]))
 
+print(output_margin)
 
 a_1 = plt.plot(train_iter_list, train_acc_list , color='r', label='train standard accuary')[0]
 a_2 = plt.plot(test_iter_list, test_acc_list , color='r', linestyle='--', label='test standard accuary')[0]
