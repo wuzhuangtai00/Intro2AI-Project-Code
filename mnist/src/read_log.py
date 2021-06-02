@@ -46,8 +46,10 @@ with open(file_name, 'r') as f:
             train_acc_list.append(float(splits[9]))
             test_rob_list.append(float(splits[6]))
             output_margin.append(float(splits[19]))
+            all_layer_margin.append(float(splits[29]))
 
 print(output_margin)
+print(all_layer_margin)
 
 a_1 = plt.plot(test_iter_list, train_acc_list , color='r', label='train standard accuary')[0]
 a_2 = plt.plot(test_iter_list, test_acc_list , color='r', linestyle='--', label='test standard accuary')[0]
@@ -56,7 +58,7 @@ a_2 = plt.plot(test_iter_list, test_acc_list , color='r', linestyle='--', label=
 b_2 = plt.plot(test_iter_list, test_rob_list , color='b', linestyle='--', label='test robust accuary')[0]
 
 c_1 = plt.plot(test_iter_list, output_margin , color='g', linestyle='--', label='output margin')[0]
-c_1 = plt.plot(test_iter_list, all_layer_margin , color='g', linestyle='--', label='all-layer margin')[0]
+c_2 = plt.plot(test_iter_list, all_layer_margin , color='g', linestyle='--', label='all-layer margin')[0]
 
 plt.title(title)
 
