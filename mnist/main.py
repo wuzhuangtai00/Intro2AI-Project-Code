@@ -253,6 +253,8 @@ def main(args):
 
     if torch.cuda.is_available():
         model.cuda()
+    else:
+        print("Error!")
 
     trainer = Trainer(args, logger, attack)
 
