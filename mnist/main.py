@@ -274,6 +274,8 @@ def main(args):
 
         te_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
+        print("Start Training")
+
         trainer.train(model, tr_loader, te_loader, args.adv_train)
     elif args.todo == 'test':
         pass
