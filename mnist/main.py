@@ -18,8 +18,8 @@ def compute_all_layer_margin(self, model, data, label):
     rem = self.attack.epsilon
 
     l = 0
-    r = 0.8
-    for t in range(6):
+    r = 1
+    for t in range(9):
         self.attack.epsilon = (l + r) / 2
         output = torch.max(model(self.attack.perturb(data, label, 'mean', True)), dim=1)[1]
 
