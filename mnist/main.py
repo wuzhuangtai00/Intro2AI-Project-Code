@@ -150,7 +150,7 @@ class Trainer():
             
 
             file_name = os.path.join(args.model_folder, 'checkpoint_%d.pth' % epoch)
-            save_model(model, file_name)
+            # save_model(model, file_name)
 
             if va_loader is not None:
                 va_acc, va_adv_acc, va_margin, va_layer = self.test(model, va_loader, True)
