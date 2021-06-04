@@ -253,6 +253,7 @@ def main(args):
 
     if torch.cuda.is_available():
         model.cuda()
+        print("Using CUDA")
     else:
         print("Error!")
 
