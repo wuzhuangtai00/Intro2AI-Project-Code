@@ -275,7 +275,7 @@ def main(args):
 
         te_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
-        print(tr_loader.size)
+        print(size(tr_loader))
 
         print("Start Training")
 
