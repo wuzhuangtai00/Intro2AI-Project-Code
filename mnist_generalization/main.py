@@ -152,6 +152,8 @@ class Trainer():
             file_name = os.path.join(args.model_folder, 'checkpoint_%d.pth' % epoch)
             # save_model(model, file_name)
 
+            print(_iter)
+
             if va_loader is not None:
                 va_acc, va_adv_acc, va_margin, va_layer = self.test(model, va_loader, True)
                 va_acc, va_adv_acc = va_acc * 100.0, va_adv_acc * 100.0
