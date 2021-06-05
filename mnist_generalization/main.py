@@ -291,7 +291,7 @@ def main(args):
 
         print("Start Training")
 
-        expect = 100
+        expect = 50
         for i in range(expect):
             x = random.randint(0, 60000)
             while(used[x]):

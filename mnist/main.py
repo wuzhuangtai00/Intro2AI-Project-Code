@@ -273,7 +273,7 @@ def main(args):
                                        transform=tv.transforms.ToTensor(), 
                                        download=True)
 
-        te_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
+        te_loader = DataLoader(te_dataset, batch_size=1024, shuffle=False, num_workers=4)
 
         print("Start Training")
 
