@@ -266,7 +266,7 @@ def main(args):
                                        train=True, 
                                        transform=tv.transforms.ToTensor(), 
                                        download=True)
-
+        print(args.batch_size)
         tr_loader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
 
         # evaluation during training
