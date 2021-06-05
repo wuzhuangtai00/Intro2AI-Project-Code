@@ -14,6 +14,8 @@ from src.utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate
 
 from src.argument import parser, print_args
 
+used = [0 for i in range(70000)]
+
 def compute_all_layer_margin(self, model, data, label):
     rem = self.attack.epsilon
 
@@ -67,8 +69,16 @@ class Trainer():
             dataset_size = 0
             all_layer_margin_test = 0
             train_acc = 0
+            _i = -1
+
+            cnt = 0
 
             for data, label in tr_loader:
+                _i = _i + 1
+                if (used[_i] == 0):
+                    continue
+
+                cnt += 1
                 data, label = tensor2cuda(data), tensor2cuda(label)
 
 
@@ -148,9 +158,11 @@ class Trainer():
 
                 _iter += 1
             
-
+            print(cnt)
             file_name = os.path.join(args.model_folder, 'checkpoint_%d.pth' % epoch)
             # save_model(model, file_name)
+
+            print(_iter)
 
             if va_loader is not None:
                 va_acc, va_adv_acc, va_margin, va_layer = self.test(model, va_loader, True)
@@ -264,7 +276,7 @@ def main(args):
                                        train=True, 
                                        transform=tv.transforms.ToTensor(), 
                                        download=True)
-
+        print(args.batch_size)
         tr_loader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
 
         # evaluation during training
@@ -275,7 +287,16 @@ def main(args):
 
         te_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
+        # print(size(tr_loader))
+
         print("Start Training")
+
+        expect = 100
+        for i in range(expect):
+            x = random.randint(0, 60000)
+            while(used[x]):
+                x = random.randint(0, 60000)
+            used[x] = 1
 
         trainer.train(model, tr_loader, te_loader, args.adv_train)
     elif args.todo == 'test':
