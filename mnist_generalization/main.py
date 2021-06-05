@@ -293,9 +293,9 @@ def main(args):
 
         expect = 100
         for i in range(expect):
-            x = randint(0, 60000)
+            x = random.randint(0, 60000)
             while(used[x]):
-                x = randint(0, 60000)
+                x = random.randint(0, 60000)
             used[x] = 1
 
         trainer.train(model, tr_loader, te_loader, args.adv_train)
