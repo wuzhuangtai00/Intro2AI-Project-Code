@@ -277,7 +277,7 @@ def main(args):
                                        transform=tv.transforms.ToTensor(), 
                                        download=True)
         print(args.batch_size)
-        tr_loader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
+        tr_loader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
         # evaluation during training
         te_dataset = tv.datasets.MNIST(args.data_root, 
@@ -285,7 +285,7 @@ def main(args):
                                        transform=tv.transforms.ToTensor(), 
                                        download=True)
 
-        te_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
+        te_loader = DataLoader(te_dataset, batch_size=1024, shuffle=False, num_workers=4)
 
         # print(size(tr_loader))
 
