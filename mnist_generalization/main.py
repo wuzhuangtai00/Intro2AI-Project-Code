@@ -35,6 +35,15 @@ def compute_all_layer_margin(self, model, data, label):
 
     return (l + r) / 2
 
+def adjust_learning_rate(optimizer, epoch):
+    """Sets the learning rate to the initial LR decayed by 10 every 30 epochs"""
+    # lr = args.lr * (0.2 ** (epoch // 50))
+    if epoch < 80:
+        lr = 0.1
+    else:
+        lr = 0.0001
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
 
 class Trainer():
     def __init__(self, args, logger, attack):
@@ -65,6 +74,7 @@ class Trainer():
 
         for epoch in range(1, args.max_epoch+1):
 
+            adjust_learning_rate(opt, epoch)
             output_margin_test = 0
             dataset_size = 0
             all_layer_margin_test = 0
