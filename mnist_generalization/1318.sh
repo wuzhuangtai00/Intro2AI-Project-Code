@@ -1,0 +1,1 @@
+python  main.py --data_root /datasets_general -e 0.314 -p 'linf' --adv_train --affix 'linf'  --batch_size 1 --epoch 400 --model_root ~/checkpoint
