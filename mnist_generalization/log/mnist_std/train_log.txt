@@ -19,3 +19,1003 @@ perturbation_type : linf
 adv_train        : False
 log_folder       : log/mnist_std
 model_folder     : /checkpoint/mnist_std
+
+==================== evaluation at epoch: 1 iteration: 50 ====================
+test acc: 12.630%, test adv acc: 14.120%, train acc: 10.000% output margin in test: 0.000871218889951706, output margin in val: 0.0019350489318370819, all-layer margin in test: 0.0, all-layer margin in val: 0.037581841472672066
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 2 iteration: 100 ====================
+test acc: 22.670%, test adv acc: 20.900%, train acc: 26.000% output margin in test: 0.00611693799495697, output margin in val: 0.007973421895503997, all-layer margin in test: 0.0, all-layer margin in val: 0.0409621147260274
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 3 iteration: 150 ====================
+test acc: 40.760%, test adv acc: 7.610%, train acc: 46.000% output margin in test: 0.02915414348244667, output margin in val: 0.0333857399597764, all-layer margin in test: 0.0, all-layer margin in val: 0.054916139632936505
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 4 iteration: 200 ====================
+test acc: 50.880%, test adv acc: 3.950%, train acc: 58.000% output margin in test: 0.10993856742978096, output margin in val: 0.11223232249971479, all-layer margin in test: 0.0, all-layer margin in val: 0.06927299499511719
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 5 iteration: 250 ====================
+test acc: 59.470%, test adv acc: 5.880%, train acc: 72.000% output margin in test: 0.28260835833847525, output margin in val: 0.22980322480017784, all-layer margin in test: 0.0, all-layer margin in val: 0.07239172766516516
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 6 iteration: 300 ====================
+test acc: 63.360%, test adv acc: 7.210%, train acc: 76.000% output margin in test: 0.4519417088292539, output margin in val: 0.3181913776664849, all-layer margin in test: 0.0, all-layer margin in val: 0.07473510397031102
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 7 iteration: 350 ====================
+test acc: 65.760%, test adv acc: 7.360%, train acc: 90.000% output margin in test: 0.5686417563259601, output margin in val: 0.3837831961613047, all-layer margin in test: 0.0, all-layer margin in val: 0.07075006954747774
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 8 iteration: 400 ====================
+test acc: 67.580%, test adv acc: 6.820%, train acc: 94.000% output margin in test: 0.679183212586213, output margin in val: 0.4418521817941284, all-layer margin in test: 0.0, all-layer margin in val: 0.07481470352564103
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 9 iteration: 450 ====================
+test acc: 67.450%, test adv acc: 6.700%, train acc: 98.000% output margin in test: 0.777760160578182, output margin in val: 0.47876719554875125, all-layer margin in test: 0.0, all-layer margin in val: 0.07305524831754735
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 10 iteration: 500 ====================
+test acc: 69.070%, test adv acc: 6.480%, train acc: 98.000% output margin in test: 0.8384303390036802, output margin in val: 0.5104781882211675, all-layer margin in test: 0.0, all-layer margin in val: 0.07438789623205741
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 11 iteration: 550 ====================
+test acc: 71.870%, test adv acc: 6.250%, train acc: 98.000% output margin in test: 0.8764328181499149, output margin in val: 0.5258934755599841, all-layer margin in test: 0.0, all-layer margin in val: 0.07575441316793893
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 12 iteration: 600 ====================
+test acc: 74.660%, test adv acc: 6.480%, train acc: 100.000% output margin in test: 0.898641705251066, output margin in val: 0.5400128138320731, all-layer margin in test: 0.0, all-layer margin in val: 0.07698143411105318
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 13 iteration: 650 ====================
+test acc: 75.180%, test adv acc: 6.900%, train acc: 100.000% output margin in test: 0.9141472679044819, output margin in val: 0.5545360786891007, all-layer margin in test: 0.0, all-layer margin in val: 0.0707526696802935
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 14 iteration: 700 ====================
+test acc: 74.550%, test adv acc: 6.980%, train acc: 100.000% output margin in test: 0.9238424901812686, output margin in val: 0.5665327389130295, all-layer margin in test: 0.0, all-layer margin in val: 0.0723910201848249
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 15 iteration: 750 ====================
+test acc: 73.630%, test adv acc: 7.010%, train acc: 100.000% output margin in test: 0.9312454847985646, output margin in val: 0.5731133999709597, all-layer margin in test: 0.0, all-layer margin in val: 0.07467485767926356
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 16 iteration: 800 ====================
+test acc: 73.180%, test adv acc: 7.140%, train acc: 100.000% output margin in test: 0.9423233114046161, output margin in val: 0.577682568517453, all-layer margin in test: 0.0, all-layer margin in val: 0.07214549231150794
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 17 iteration: 850 ====================
+test acc: 74.060%, test adv acc: 7.110%, train acc: 100.000% output margin in test: 0.9620859255739924, output margin in val: 0.589248665886839, all-layer margin in test: 0.0, all-layer margin in val: 0.06986490885416667
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 18 iteration: 900 ====================
+test acc: 75.820%, test adv acc: 7.010%, train acc: 100.000% output margin in test: 0.9781791818865895, output margin in val: 0.6054987107687018, all-layer margin in test: 0.0, all-layer margin in val: 0.0741347134643917
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 19 iteration: 950 ====================
+test acc: 75.730%, test adv acc: 7.200%, train acc: 100.000% output margin in test: 0.9813084465970314, output margin in val: 0.6099411295795307, all-layer margin in test: 0.0, all-layer margin in val: 0.07337050875603865
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 20 iteration: 1000 ====================
+test acc: 75.800%, test adv acc: 7.290%, train acc: 100.000% output margin in test: 0.9838943615632888, output margin in val: 0.6141326425159271, all-layer margin in test: 0.0, all-layer margin in val: 0.0700054671653144
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 21 iteration: 1050 ====================
+test acc: 75.820%, test adv acc: 7.310%, train acc: 100.000% output margin in test: 0.9860039418458473, output margin in val: 0.6178498681105662, all-layer margin in test: 0.0, all-layer margin in val: 0.07114017834754263
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 22 iteration: 1100 ====================
+test acc: 75.740%, test adv acc: 7.360%, train acc: 100.000% output margin in test: 0.9876273336708983, output margin in val: 0.6211825655156313, all-layer margin in test: 0.0, all-layer margin in val: 0.07155973485792622
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 23 iteration: 1150 ====================
+test acc: 75.780%, test adv acc: 7.450%, train acc: 100.000% output margin in test: 0.9890575875531431, output margin in val: 0.6242585767039043, all-layer margin in test: 0.0, all-layer margin in val: 0.06953349028936393
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 24 iteration: 1200 ====================
+test acc: 75.770%, test adv acc: 7.470%, train acc: 100.000% output margin in test: 0.9902246030188689, output margin in val: 0.6270948765814915, all-layer margin in test: 0.0, all-layer margin in val: 0.07302311074144487
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 25 iteration: 1250 ====================
+test acc: 75.840%, test adv acc: 7.460%, train acc: 100.000% output margin in test: 0.9912102196616979, output margin in val: 0.6297830430165237, all-layer margin in test: 0.0, all-layer margin in val: 0.07066436355973026
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 26 iteration: 1300 ====================
+test acc: 75.850%, test adv acc: 7.510%, train acc: 100.000% output margin in test: 0.9920904792202418, output margin in val: 0.6322320518451041, all-layer margin in test: 0.0, all-layer margin in val: 0.07027012264946962
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 27 iteration: 1350 ====================
+test acc: 75.800%, test adv acc: 7.590%, train acc: 100.000% output margin in test: 0.9928345247239122, output margin in val: 0.6343996309795082, all-layer margin in test: 0.0, all-layer margin in val: 0.0710288972007722
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 28 iteration: 1400 ====================
+test acc: 75.800%, test adv acc: 7.640%, train acc: 100.000% output margin in test: 0.9934796469060712, output margin in val: 0.6365570142518584, all-layer margin in test: 0.0, all-layer margin in val: 0.06998697916666667
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 29 iteration: 1450 ====================
+test acc: 75.820%, test adv acc: 7.660%, train acc: 100.000% output margin in test: 0.9940654173699295, output margin in val: 0.6386679425042204, all-layer margin in test: 0.0, all-layer margin in val: 0.07131420173267326
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 30 iteration: 1500 ====================
+test acc: 75.820%, test adv acc: 7.630%, train acc: 100.000% output margin in test: 0.9945631213818342, output margin in val: 0.6404817534518238, all-layer margin in test: 0.0, all-layer margin in val: 0.07003674031316348
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 31 iteration: 1550 ====================
+test acc: 75.810%, test adv acc: 7.730%, train acc: 100.000% output margin in test: 0.995008334414797, output margin in val: 0.642192308198086, all-layer margin in test: 0.0, all-layer margin in val: 0.07364374698359073
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 32 iteration: 1600 ====================
+test acc: 75.810%, test adv acc: 7.720%, train acc: 100.000% output margin in test: 0.9954138576141304, output margin in val: 0.6438249911330991, all-layer margin in test: 0.0, all-layer margin in val: 0.07194334963858424
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 33 iteration: 1650 ====================
+test acc: 75.800%, test adv acc: 7.730%, train acc: 100.000% output margin in test: 0.9957620459657118, output margin in val: 0.6453689275048773, all-layer margin in test: 0.0, all-layer margin in val: 0.07039168074324324
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 34 iteration: 1700 ====================
+test acc: 75.790%, test adv acc: 7.740%, train acc: 100.000% output margin in test: 0.9960874988876458, output margin in val: 0.6468450816717788, all-layer margin in test: 0.0, all-layer margin in val: 0.07042893629807692
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 35 iteration: 1750 ====================
+test acc: 75.850%, test adv acc: 7.680%, train acc: 100.000% output margin in test: 0.9963722668167247, output margin in val: 0.6483500451709779, all-layer margin in test: 0.0, all-layer margin in val: 0.06922907959726443
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 36 iteration: 1800 ====================
+test acc: 75.850%, test adv acc: 7.740%, train acc: 100.000% output margin in test: 0.9966284347090277, output margin in val: 0.6496391265030038, all-layer margin in test: 0.0, all-layer margin in val: 0.0745100401289181
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 37 iteration: 1850 ====================
+test acc: 75.780%, test adv acc: 7.810%, train acc: 100.000% output margin in test: 0.9968628399737827, output margin in val: 0.6509025573929045, all-layer margin in test: 0.0, all-layer margin in val: 0.06931074838789683
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 38 iteration: 1900 ====================
+test acc: 75.790%, test adv acc: 7.840%, train acc: 100.000% output margin in test: 0.9970734486629863, output margin in val: 0.6521131786758633, all-layer margin in test: 0.0, all-layer margin in val: 0.0729684393638171
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 39 iteration: 1950 ====================
+test acc: 75.800%, test adv acc: 7.920%, train acc: 100.000% output margin in test: 0.9972704691833678, output margin in val: 0.6533379242906118, all-layer margin in test: 0.0, all-layer margin in val: 0.07206715274266937
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 40 iteration: 2000 ====================
+test acc: 75.790%, test adv acc: 7.890%, train acc: 100.000% output margin in test: 0.9974467534743872, output margin in val: 0.6544359834513732, all-layer margin in test: 0.0, all-layer margin in val: 0.06918305100293543
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 41 iteration: 2050 ====================
+test acc: 75.780%, test adv acc: 7.890%, train acc: 100.000% output margin in test: 0.9976096416423116, output margin in val: 0.655489144891158, all-layer margin in test: 0.0, all-layer margin in val: 0.07304902129120878
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 42 iteration: 2100 ====================
+test acc: 75.810%, test adv acc: 7.920%, train acc: 100.000% output margin in test: 0.9977585514860402, output margin in val: 0.6565162202961597, all-layer margin in test: 0.0, all-layer margin in val: 0.07044680132612967
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 43 iteration: 2150 ====================
+test acc: 75.780%, test adv acc: 8.030%, train acc: 100.000% output margin in test: 0.9978939230823517, output margin in val: 0.657494225438667, all-layer margin in test: 0.0, all-layer margin in val: 0.06928146787848606
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 44 iteration: 2200 ====================
+test acc: 75.800%, test adv acc: 8.020%, train acc: 100.000% output margin in test: 0.9980203710744491, output margin in val: 0.6585226700334581, all-layer margin in test: 0.0, all-layer margin in val: 0.07078283667794971
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 45 iteration: 2250 ====================
+test acc: 75.810%, test adv acc: 8.040%, train acc: 100.000% output margin in test: 0.9981355433857334, output margin in val: 0.6594571740102693, all-layer margin in test: 0.0, all-layer margin in val: 0.07052658126876876
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 46 iteration: 2300 ====================
+test acc: 75.810%, test adv acc: 8.080%, train acc: 100.000% output margin in test: 0.9982439537129858, output margin in val: 0.6603098084915837, all-layer margin in test: 0.0, all-layer margin in val: 0.06838055856832972
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 47 iteration: 2350 ====================
+test acc: 75.830%, test adv acc: 8.060%, train acc: 100.000% output margin in test: 0.9983426678950582, output margin in val: 0.6611818232667043, all-layer margin in test: 0.0, all-layer margin in val: 0.06977455469536757
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 48 iteration: 2400 ====================
+test acc: 75.800%, test adv acc: 8.110%, train acc: 100.000% output margin in test: 0.9984339816737815, output margin in val: 0.6619972948455844, all-layer margin in test: 0.0, all-layer margin in val: 0.06739297444068679
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 49 iteration: 2450 ====================
+test acc: 75.810%, test adv acc: 8.150%, train acc: 100.000% output margin in test: 0.9985200795460151, output margin in val: 0.6628656224922105, all-layer margin in test: 0.0, all-layer margin in val: 0.07046064725232198
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 50 iteration: 2500 ====================
+test acc: 75.800%, test adv acc: 8.170%, train acc: 100.000% output margin in test: 0.9985983730248676, output margin in val: 0.6636216639160308, all-layer margin in test: 0.0, all-layer margin in val: 0.06921078580097087
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 51 iteration: 2550 ====================
+test acc: 75.790%, test adv acc: 8.120%, train acc: 100.000% output margin in test: 0.9986729537548104, output margin in val: 0.6643603700802068, all-layer margin in test: 0.0, all-layer margin in val: 0.06825898072429906
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 52 iteration: 2600 ====================
+test acc: 75.790%, test adv acc: 8.180%, train acc: 100.000% output margin in test: 0.9987423062644234, output margin in val: 0.6650729749845087, all-layer margin in test: 0.0, all-layer margin in val: 0.06726515436746988
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 53 iteration: 2650 ====================
+test acc: 75.800%, test adv acc: 8.190%, train acc: 100.000% output margin in test: 0.9988071060094126, output margin in val: 0.665830406355781, all-layer margin in test: 0.0, all-layer margin in val: 0.06918008207070707
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 54 iteration: 2700 ====================
+test acc: 75.810%, test adv acc: 8.180%, train acc: 100.000% output margin in test: 0.9988673437495685, output margin in val: 0.6665216207268421, all-layer margin in test: 0.0, all-layer margin in val: 0.07215690424876847
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 55 iteration: 2750 ====================
+test acc: 75.810%, test adv acc: 8.200%, train acc: 100.000% output margin in test: 0.9989232420744998, output margin in val: 0.6672209709091418, all-layer margin in test: 0.0, all-layer margin in val: 0.07178185096153847
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 56 iteration: 2800 ====================
+test acc: 75.800%, test adv acc: 8.210%, train acc: 100.000% output margin in test: 0.9989761679952881, output margin in val: 0.6678784343857116, all-layer margin in test: 0.0, all-layer margin in val: 0.06800079345703125
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 57 iteration: 2850 ====================
+test acc: 75.790%, test adv acc: 8.170%, train acc: 100.000% output margin in test: 0.9990258260762311, output margin in val: 0.6684582338596978, all-layer margin in test: 0.0, all-layer margin in val: 0.06778857474434877
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 58 iteration: 2900 ====================
+test acc: 75.790%, test adv acc: 8.220%, train acc: 100.000% output margin in test: 0.9990726310231776, output margin in val: 0.66906818178468, all-layer margin in test: 0.0, all-layer margin in val: 0.0705903995490982
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 59 iteration: 2950 ====================
+test acc: 75.820%, test adv acc: 8.170%, train acc: 100.000% output margin in test: 0.9991162358386635, output margin in val: 0.6697218311371426, all-layer margin in test: 0.0, all-layer margin in val: 0.07047280180010071
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 60 iteration: 3000 ====================
+test acc: 75.820%, test adv acc: 8.180%, train acc: 100.000% output margin in test: 0.9991575966369532, output margin in val: 0.6703321505833453, all-layer margin in test: 0.0, all-layer margin in val: 0.06753485217065869
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 61 iteration: 3050 ====================
+test acc: 75.790%, test adv acc: 8.220%, train acc: 100.000% output margin in test: 0.9991968394100911, output margin in val: 0.6708921242759225, all-layer margin in test: 0.0, all-layer margin in val: 0.07309254508706467
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 62 iteration: 3100 ====================
+test acc: 75.790%, test adv acc: 8.180%, train acc: 100.000% output margin in test: 0.9992339326410922, output margin in val: 0.6714713364000707, all-layer margin in test: 0.0, all-layer margin in val: 0.07003362914910433
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 63 iteration: 3150 ====================
+test acc: 75.780%, test adv acc: 8.240%, train acc: 100.000% output margin in test: 0.9992680033947727, output margin in val: 0.6720446098355308, all-layer margin in test: 0.0, all-layer margin in val: 0.069725790513834
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 64 iteration: 3200 ====================
+test acc: 75.790%, test adv acc: 8.280%, train acc: 100.000% output margin in test: 0.9993011842564385, output margin in val: 0.6725939901451121, all-layer margin in test: 0.0, all-layer margin in val: 0.07081563767748479
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 65 iteration: 3250 ====================
+test acc: 75.800%, test adv acc: 8.280%, train acc: 100.000% output margin in test: 0.9993321178611745, output margin in val: 0.6731067210117518, all-layer margin in test: 0.0, all-layer margin in val: 0.06685899333250249
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 66 iteration: 3300 ====================
+test acc: 75.790%, test adv acc: 8.320%, train acc: 100.000% output margin in test: 0.9993613824101749, output margin in val: 0.6736359173725203, all-layer margin in test: 0.0, all-layer margin in val: 0.06880155244098712
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 67 iteration: 3350 ====================
+test acc: 75.790%, test adv acc: 8.350%, train acc: 100.000% output margin in test: 0.9993891915568446, output margin in val: 0.6741266602307401, all-layer margin in test: 0.0, all-layer margin in val: 0.06940878591229839
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 68 iteration: 3400 ====================
+test acc: 75.790%, test adv acc: 8.350%, train acc: 100.000% output margin in test: 0.9994154838654566, output margin in val: 0.6746502304371549, all-layer margin in test: 0.0, all-layer margin in val: 0.06741546060717797
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 69 iteration: 3450 ====================
+test acc: 75.790%, test adv acc: 8.400%, train acc: 100.000% output margin in test: 0.9994405252505135, output margin in val: 0.6751063876168625, all-layer margin in test: 0.0, all-layer margin in val: 0.07058360541044777
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 70 iteration: 3500 ====================
+test acc: 75.780%, test adv acc: 8.410%, train acc: 100.000% output margin in test: 0.9994641011316128, output margin in val: 0.6755896399275799, all-layer margin in test: 0.0, all-layer margin in val: 0.07089533422293942
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 71 iteration: 3550 ====================
+test acc: 75.800%, test adv acc: 8.460%, train acc: 100.000% output margin in test: 0.9994868396552511, output margin in val: 0.6760699885097234, all-layer margin in test: 0.0, all-layer margin in val: 0.06985821613269425
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 72 iteration: 3600 ====================
+test acc: 75.810%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9995078855448883, output margin in val: 0.6765271542085801, all-layer margin in test: 0.0, all-layer margin in val: 0.07047107054455445
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 73 iteration: 3650 ====================
+test acc: 75.830%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9995286554321007, output margin in val: 0.6769625412499418, all-layer margin in test: 0.0, all-layer margin in val: 0.06990631913716815
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 74 iteration: 3700 ====================
+test acc: 75.840%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.999547508236355, output margin in val: 0.6774198049360404, all-layer margin in test: 0.0, all-layer margin in val: 0.07023448778873917
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 75 iteration: 3750 ====================
+test acc: 75.850%, test adv acc: 8.430%, train acc: 100.000% output margin in test: 0.9995660624603243, output margin in val: 0.6778602720163505, all-layer margin in test: 0.0, all-layer margin in val: 0.06761326972713864
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 76 iteration: 3800 ====================
+test acc: 75.860%, test adv acc: 8.400%, train acc: 100.000% output margin in test: 0.9995838167401189, output margin in val: 0.6782966050901251, all-layer margin in test: 0.0, all-layer margin in val: 0.06806382376346719
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 77 iteration: 3850 ====================
+test acc: 75.880%, test adv acc: 8.440%, train acc: 100.000% output margin in test: 0.9996001809463496, output margin in val: 0.6787133333425147, all-layer margin in test: 0.0, all-layer margin in val: 0.06746756348619329
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 78 iteration: 3900 ====================
+test acc: 75.890%, test adv acc: 8.430%, train acc: 100.000% output margin in test: 0.9996160396196481, output margin in val: 0.6791323987211482, all-layer margin in test: 0.0, all-layer margin in val: 0.06976691794132397
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 79 iteration: 3950 ====================
+test acc: 75.890%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.999631341252292, output margin in val: 0.6795633129596238, all-layer margin in test: 0.0, all-layer margin in val: 0.06910109281062124
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 80 iteration: 4000 ====================
+test acc: 75.880%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.9996454218973266, output margin in val: 0.6799509394924156, all-layer margin in test: 0.0, all-layer margin in val: 0.06780442080823293
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 81 iteration: 4050 ====================
+test acc: 75.890%, test adv acc: 8.440%, train acc: 100.000% output margin in test: 0.9996595509445797, output margin in val: 0.6803113563870401, all-layer margin in test: 0.0, all-layer margin in val: 0.07210933711202716
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 82 iteration: 4100 ====================
+test acc: 75.900%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.9996726332574142, output margin in val: 0.6807494227786745, all-layer margin in test: 0.0, all-layer margin in val: 0.06806391208251474
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 83 iteration: 4150 ====================
+test acc: 75.930%, test adv acc: 8.390%, train acc: 100.000% output margin in test: 0.999685053415603, output margin in val: 0.6811202456135493, all-layer margin in test: 0.0, all-layer margin in val: 0.07000027930286006
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 84 iteration: 4200 ====================
+test acc: 75.920%, test adv acc: 8.400%, train acc: 100.000% output margin in test: 0.9996970514893906, output margin in val: 0.6814802769633657, all-layer margin in test: 0.0, all-layer margin in val: 0.06620779363682093
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 85 iteration: 4250 ====================
+test acc: 75.940%, test adv acc: 8.410%, train acc: 100.000% output margin in test: 0.9997086660967704, output margin in val: 0.6818485902993136, all-layer margin in test: 0.0, all-layer margin in val: 0.069135516222334
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 86 iteration: 4300 ====================
+test acc: 75.920%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.9997196378868171, output margin in val: 0.6822225214538454, all-layer margin in test: 0.0, all-layer margin in val: 0.06881816946008189
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 87 iteration: 4350 ====================
+test acc: 75.930%, test adv acc: 8.420%, train acc: 100.000% output margin in test: 0.9997301037257051, output margin in val: 0.6825883137726751, all-layer margin in test: 0.0, all-layer margin in val: 0.06844240258097166
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 88 iteration: 4400 ====================
+test acc: 75.920%, test adv acc: 8.440%, train acc: 100.000% output margin in test: 0.9997402233960822, output margin in val: 0.6829734498040302, all-layer margin in test: 0.0, all-layer margin in val: 0.06721546009665622
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 89 iteration: 4450 ====================
+test acc: 75.930%, test adv acc: 8.410%, train acc: 100.000% output margin in test: 0.9997498170793684, output margin in val: 0.6832987521561823, all-layer margin in test: 0.0, all-layer margin in val: 0.07314593493326489
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 90 iteration: 4500 ====================
+test acc: 75.910%, test adv acc: 8.410%, train acc: 100.000% output margin in test: 0.9997590182598423, output margin in val: 0.6836273381639284, all-layer margin in test: 0.0, all-layer margin in val: 0.06890596605659398
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 91 iteration: 4550 ====================
+test acc: 75.900%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9997678087176398, output margin in val: 0.6839586156888515, all-layer margin in test: 0.0, all-layer margin in val: 0.06897446958077709
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 92 iteration: 4600 ====================
+test acc: 75.870%, test adv acc: 8.500%, train acc: 100.000% output margin in test: 0.9997763631315774, output margin in val: 0.6843004776307289, all-layer margin in test: 0.0, all-layer margin in val: 0.06798471894654089
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 93 iteration: 4650 ====================
+test acc: 75.870%, test adv acc: 8.510%, train acc: 100.000% output margin in test: 0.9997844171067414, output margin in val: 0.6846220698198183, all-layer margin in test: 0.0, all-layer margin in val: 0.07013768325617284
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 94 iteration: 4700 ====================
+test acc: 75.900%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.999792329196076, output margin in val: 0.6849883779940952, all-layer margin in test: 0.0, all-layer margin in val: 0.06600614381067961
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 95 iteration: 4750 ====================
+test acc: 75.900%, test adv acc: 8.510%, train acc: 100.000% output margin in test: 0.9997996154996036, output margin in val: 0.6852919259303246, all-layer margin in test: 0.0, all-layer margin in val: 0.06810820151748971
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 96 iteration: 4800 ====================
+test acc: 75.880%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.999806924199472, output margin in val: 0.6856265551735355, all-layer margin in test: 0.0, all-layer margin in val: 0.07148418556013579
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 97 iteration: 4850 ====================
+test acc: 75.890%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.9998137811037311, output margin in val: 0.6859275107406647, all-layer margin in test: 0.0, all-layer margin in val: 0.06793272148058252
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 98 iteration: 4900 ====================
+test acc: 75.880%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.9998203311883087, output margin in val: 0.6862446228301075, all-layer margin in test: 0.0, all-layer margin in val: 0.06871439923212487
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 99 iteration: 4950 ====================
+test acc: 75.880%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.9998267915396422, output margin in val: 0.6865377759206782, all-layer margin in test: 0.0, all-layer margin in val: 0.07039157774390244
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 100 iteration: 5000 ====================
+test acc: 75.900%, test adv acc: 8.520%, train acc: 100.000% output margin in test: 0.9998328310132067, output margin in val: 0.6868408931795741, all-layer margin in test: 0.0, all-layer margin in val: 0.0692254577020202
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 101 iteration: 5050 ====================
+test acc: 75.900%, test adv acc: 8.490%, train acc: 100.000% output margin in test: 0.9998387811425333, output margin in val: 0.6871547769395887, all-layer margin in test: 0.0, all-layer margin in val: 0.0692153498228745
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 102 iteration: 5100 ====================
+test acc: 75.910%, test adv acc: 8.480%, train acc: 100.000% output margin in test: 0.9998443205688612, output margin in val: 0.6874726066259178, all-layer margin in test: 0.0, all-layer margin in val: 0.06854144597457627
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 103 iteration: 5150 ====================
+test acc: 75.890%, test adv acc: 8.520%, train acc: 100.000% output margin in test: 0.9998497120508573, output margin in val: 0.6877537028306345, all-layer margin in test: 0.0, all-layer margin in val: 0.06676488587232961
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 104 iteration: 5200 ====================
+test acc: 75.890%, test adv acc: 8.450%, train acc: 100.000% output margin in test: 0.9998549263181843, output margin in val: 0.6880560706530475, all-layer margin in test: 0.0, all-layer margin in val: 0.06814192181174089
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 105 iteration: 5250 ====================
+test acc: 75.890%, test adv acc: 8.510%, train acc: 100.000% output margin in test: 0.9998598916743566, output margin in val: 0.6883248458519629, all-layer margin in test: 0.0, all-layer margin in val: 0.06771921700861196
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 106 iteration: 5300 ====================
+test acc: 75.900%, test adv acc: 8.530%, train acc: 100.000% output margin in test: 0.9998647833820715, output margin in val: 0.6886342560958799, all-layer margin in test: 0.0, all-layer margin in val: 0.06844196983830846
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 107 iteration: 5350 ====================
+test acc: 75.910%, test adv acc: 8.510%, train acc: 100.000% output margin in test: 0.9998693563342538, output margin in val: 0.6889137952511164, all-layer margin in test: 0.0, all-layer margin in val: 0.07061748950915564
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 108 iteration: 5400 ====================
+test acc: 75.910%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9998737316628039, output margin in val: 0.6891843248903606, all-layer margin in test: 0.0, all-layer margin in val: 0.07083523194967074
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 109 iteration: 5450 ====================
+test acc: 75.910%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9998780531974287, output margin in val: 0.689423324686969, all-layer margin in test: 0.0, all-layer margin in val: 0.0696273084095284
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 110 iteration: 5500 ====================
+test acc: 75.890%, test adv acc: 8.460%, train acc: 100.000% output margin in test: 0.9998821705536064, output margin in val: 0.689699581263147, all-layer margin in test: 0.0, all-layer margin in val: 0.06807215073529412
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 111 iteration: 5550 ====================
+test acc: 75.900%, test adv acc: 8.480%, train acc: 100.000% output margin in test: 0.9998860934060627, output margin in val: 0.6899775579320757, all-layer margin in test: 0.0, all-layer margin in val: 0.06574049914047152
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 112 iteration: 5600 ====================
+test acc: 75.900%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9998900041134101, output margin in val: 0.6902328926746253, all-layer margin in test: 0.0, all-layer margin in val: 0.06858746998230536
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 113 iteration: 5650 ====================
+test acc: 75.920%, test adv acc: 8.460%, train acc: 100.000% output margin in test: 0.999893666647838, output margin in val: 0.6905141453772194, all-layer margin in test: 0.0, all-layer margin in val: 0.06938931237348178
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 114 iteration: 5700 ====================
+test acc: 75.920%, test adv acc: 8.460%, train acc: 100.000% output margin in test: 0.9998971788824116, output margin in val: 0.6907697486887108, all-layer margin in test: 0.0, all-layer margin in val: 0.06650643620466322
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 115 iteration: 5750 ====================
+test acc: 75.890%, test adv acc: 8.490%, train acc: 100.000% output margin in test: 0.9999005834926655, output margin in val: 0.6910198417379223, all-layer margin in test: 0.0, all-layer margin in val: 0.07100714726116303
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 116 iteration: 5800 ====================
+test acc: 75.900%, test adv acc: 8.480%, train acc: 100.000% output margin in test: 0.9999038759725305, output margin in val: 0.6912751387180189, all-layer margin in test: 0.0, all-layer margin in val: 0.06904814894400786
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 117 iteration: 5850 ====================
+test acc: 75.920%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9999070772710625, output margin in val: 0.6915509374062719, all-layer margin in test: 0.0, all-layer margin in val: 0.0672438627254509
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 118 iteration: 5900 ====================
+test acc: 75.910%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9999100918633164, output margin in val: 0.6917487919370275, all-layer margin in test: 0.0, all-layer margin in val: 0.06582190526248725
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 119 iteration: 5950 ====================
+test acc: 75.930%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9999130795530162, output margin in val: 0.6920426881242878, all-layer margin in test: 0.0, all-layer margin in val: 0.06904012819709128
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 120 iteration: 6000 ====================
+test acc: 75.930%, test adv acc: 8.470%, train acc: 100.000% output margin in test: 0.9999158975982745, output margin in val: 0.692264909569773, all-layer margin in test: 0.0, all-layer margin in val: 0.06801428918393783
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 121 iteration: 6050 ====================
+test acc: 75.910%, test adv acc: 8.510%, train acc: 100.000% output margin in test: 0.9999186518101598, output margin in val: 0.692505093069985, all-layer margin in test: 0.0, all-layer margin in val: 0.07002719056372549
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 122 iteration: 6100 ====================
+test acc: 75.920%, test adv acc: 8.520%, train acc: 100.000% output margin in test: 0.9999212755569797, output margin in val: 0.6927409694790259, all-layer margin in test: 0.0, all-layer margin in val: 0.06940650939941406
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 123 iteration: 6150 ====================
+test acc: 75.900%, test adv acc: 8.550%, train acc: 100.000% output margin in test: 0.999923891466483, output margin in val: 0.6929659855429415, all-layer margin in test: 0.0, all-layer margin in val: 0.06535852100202429
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 124 iteration: 6200 ====================
+test acc: 75.910%, test adv acc: 8.560%, train acc: 100.000% output margin in test: 0.9999263204680707, output margin in val: 0.6932111766207417, all-layer margin in test: 0.0, all-layer margin in val: 0.06704169785429141
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 125 iteration: 6250 ====================
+test acc: 75.900%, test adv acc: 8.580%, train acc: 100.000% output margin in test: 0.9999287468199075, output margin in val: 0.6934421896085481, all-layer margin in test: 0.0, all-layer margin in val: 0.07117583786231885
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 126 iteration: 6300 ====================
+test acc: 75.910%, test adv acc: 8.590%, train acc: 100.000% output margin in test: 0.9999309959767703, output margin in val: 0.6936555324089538, all-layer margin in test: 0.0, all-layer margin in val: 0.06673312014248704
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 127 iteration: 6350 ====================
+test acc: 75.910%, test adv acc: 8.600%, train acc: 100.000% output margin in test: 0.999933235474488, output margin in val: 0.6938681009994774, all-layer margin in test: 0.0, all-layer margin in val: 0.06815045864427861
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 128 iteration: 6400 ====================
+test acc: 75.920%, test adv acc: 8.590%, train acc: 100.000% output margin in test: 0.9999353897465464, output margin in val: 0.6940925542595136, all-layer margin in test: 0.0, all-layer margin in val: 0.06943460051546392
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 129 iteration: 6450 ====================
+test acc: 75.910%, test adv acc: 8.570%, train acc: 100.000% output margin in test: 0.9999374470039212, output margin in val: 0.6943140689340518, all-layer margin in test: 0.0, all-layer margin in val: 0.06638388597328244
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 130 iteration: 6500 ====================
+test acc: 75.910%, test adv acc: 8.550%, train acc: 100.000% output margin in test: 0.999939440980373, output margin in val: 0.6945251238863459, all-layer margin in test: 0.0, all-layer margin in val: 0.07045229219543148
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 131 iteration: 6550 ====================
+test acc: 75.910%, test adv acc: 8.590%, train acc: 100.000% output margin in test: 0.9999413892326245, output margin in val: 0.6947589732067705, all-layer margin in test: 0.0, all-layer margin in val: 0.06865985576923077
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 132 iteration: 6600 ====================
+test acc: 75.910%, test adv acc: 8.580%, train acc: 100.000% output margin in test: 0.999943255590917, output margin in val: 0.6949875265701604, all-layer margin in test: 0.0, all-layer margin in val: 0.06994766344677585
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 133 iteration: 6650 ====================
+test acc: 75.910%, test adv acc: 8.590%, train acc: 100.000% output margin in test: 0.9999450327035482, output margin in val: 0.6951845937465215, all-layer margin in test: 0.0, all-layer margin in val: 0.07074021923449612
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 134 iteration: 6700 ====================
+test acc: 75.900%, test adv acc: 8.600%, train acc: 100.000% output margin in test: 0.9999467716081398, output margin in val: 0.6953869872713337, all-layer margin in test: 0.0, all-layer margin in val: 0.0691919191919192
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 135 iteration: 6750 ====================
+test acc: 75.890%, test adv acc: 8.650%, train acc: 100.000% output margin in test: 0.9999484476675662, output margin in val: 0.6956001529239833, all-layer margin in test: 0.0, all-layer margin in val: 0.06821846818637274
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 136 iteration: 6800 ====================
+test acc: 75.890%, test adv acc: 8.610%, train acc: 100.000% output margin in test: 0.9999500665303677, output margin in val: 0.6957921476126571, all-layer margin in test: 0.0, all-layer margin in val: 0.0688693138860887
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 137 iteration: 6850 ====================
+test acc: 75.910%, test adv acc: 8.620%, train acc: 100.000% output margin in test: 0.9999516730456394, output margin in val: 0.6960071415245866, all-layer margin in test: 0.0, all-layer margin in val: 0.06853515625
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 138 iteration: 6900 ====================
+test acc: 75.910%, test adv acc: 8.670%, train acc: 100.000% output margin in test: 0.9999531599185139, output margin in val: 0.6962347920997616, all-layer margin in test: 0.0, all-layer margin in val: 0.06593987568544367
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 139 iteration: 6950 ====================
+test acc: 75.950%, test adv acc: 8.610%, train acc: 100.000% output margin in test: 0.9999546285381965, output margin in val: 0.6964394580818074, all-layer margin in test: 0.0, all-layer margin in val: 0.069462890625
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 140 iteration: 7000 ====================
+test acc: 75.920%, test adv acc: 8.640%, train acc: 100.000% output margin in test: 0.999956054437209, output margin in val: 0.6966410025802715, all-layer margin in test: 0.0, all-layer margin in val: 0.06587157964005877
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 141 iteration: 7050 ====================
+test acc: 75.950%, test adv acc: 8.580%, train acc: 100.000% output margin in test: 0.9999574675439031, output margin in val: 0.6968207864695333, all-layer margin in test: 0.0, all-layer margin in val: 0.06948663546954315
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 142 iteration: 7100 ====================
+test acc: 75.930%, test adv acc: 8.610%, train acc: 100.000% output margin in test: 0.9999587501932333, output margin in val: 0.6970141421102571, all-layer margin in test: 0.0, all-layer margin in val: 0.06830047726167315
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 143 iteration: 7150 ====================
+test acc: 75.950%, test adv acc: 8.660%, train acc: 100.000% output margin in test: 0.9999600621770028, output margin in val: 0.6972357686845008, all-layer margin in test: 0.0, all-layer margin in val: 0.07020835953219316
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 144 iteration: 7200 ====================
+test acc: 75.950%, test adv acc: 8.660%, train acc: 100.000% output margin in test: 0.9999612835441227, output margin in val: 0.6973981500608724, all-layer margin in test: 0.0, all-layer margin in val: 0.06947189031862745
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 145 iteration: 7250 ====================
+test acc: 75.960%, test adv acc: 8.650%, train acc: 100.000% output margin in test: 0.9999625159948643, output margin in val: 0.6976181520568762, all-layer margin in test: 0.0, all-layer margin in val: 0.0673483117639843
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 146 iteration: 7300 ====================
+test acc: 75.970%, test adv acc: 8.630%, train acc: 100.000% output margin in test: 0.9999636570038729, output margin in val: 0.6977760981877119, all-layer margin in test: 0.0, all-layer margin in val: 0.06787013067061144
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 147 iteration: 7350 ====================
+test acc: 75.960%, test adv acc: 8.630%, train acc: 100.000% output margin in test: 0.9999647869893551, output margin in val: 0.6979929930432873, all-layer margin in test: 0.0, all-layer margin in val: 0.06957760205375253
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 148 iteration: 7400 ====================
+test acc: 75.950%, test adv acc: 8.630%, train acc: 100.000% output margin in test: 0.9999658787295891, output margin in val: 0.6981668453136801, all-layer margin in test: 0.0, all-layer margin in val: 0.06896342366965226
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 149 iteration: 7450 ====================
+test acc: 75.960%, test adv acc: 8.670%, train acc: 100.000% output margin in test: 0.9999669369375915, output margin in val: 0.6983586887065325, all-layer margin in test: 0.0, all-layer margin in val: 0.06755082325268817
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 150 iteration: 7500 ====================
+test acc: 75.950%, test adv acc: 8.700%, train acc: 100.000% output margin in test: 0.9999679333304754, output margin in val: 0.6985542675714881, all-layer margin in test: 0.0, all-layer margin in val: 0.06898689270019531
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 151 iteration: 7550 ====================
+test acc: 75.950%, test adv acc: 8.710%, train acc: 100.000% output margin in test: 0.9999689217792919, output margin in val: 0.6987363407637371, all-layer margin in test: 0.0, all-layer margin in val: 0.06824752616698748
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 152 iteration: 7600 ====================
+test acc: 75.950%, test adv acc: 8.710%, train acc: 100.000% output margin in test: 0.9999698634086651, output margin in val: 0.6989038326443386, all-layer margin in test: 0.0, all-layer margin in val: 0.06788382266684045
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 153 iteration: 7650 ====================
+test acc: 75.950%, test adv acc: 8.700%, train acc: 100.000% output margin in test: 0.9999707939074135, output margin in val: 0.6990928503730087, all-layer margin in test: 0.0, all-layer margin in val: 0.06699102952075099
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 154 iteration: 7700 ====================
+test acc: 75.960%, test adv acc: 8.700%, train acc: 100.000% output margin in test: 0.9999717068176781, output margin in val: 0.6992720719331866, all-layer margin in test: 0.0, all-layer margin in val: 0.07046894434079602
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 155 iteration: 7750 ====================
+test acc: 75.960%, test adv acc: 8.740%, train acc: 100.000% output margin in test: 0.9999725788630317, output margin in val: 0.6994600510994156, all-layer margin in test: 0.0, all-layer margin in val: 0.06988870872641509
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 156 iteration: 7800 ====================
+test acc: 75.960%, test adv acc: 8.720%, train acc: 100.000% output margin in test: 0.9999733932040791, output margin in val: 0.6996555273893679, all-layer margin in test: 0.0, all-layer margin in val: 0.0700824008580705
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 157 iteration: 7850 ====================
+test acc: 75.940%, test adv acc: 8.730%, train acc: 100.000% output margin in test: 0.9999741922770999, output margin in val: 0.6998320307851486, all-layer margin in test: 0.0, all-layer margin in val: 0.0690405574845679
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 158 iteration: 7900 ====================
+test acc: 75.930%, test adv acc: 8.760%, train acc: 100.000% output margin in test: 0.9999749942205092, output margin in val: 0.699990600621977, all-layer margin in test: 0.0, all-layer margin in val: 0.06878271732233503
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 159 iteration: 7950 ====================
+test acc: 75.930%, test adv acc: 8.730%, train acc: 100.000% output margin in test: 0.9999757564474591, output margin in val: 0.7001545789557807, all-layer margin in test: 0.0, all-layer margin in val: 0.06874168040060852
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 160 iteration: 8000 ====================
+test acc: 75.920%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999764772277713, output margin in val: 0.7003623458223956, all-layer margin in test: 0.0, all-layer margin in val: 0.06942068848619329
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 161 iteration: 8050 ====================
+test acc: 75.920%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999771758073144, output margin in val: 0.7005082338492674, all-layer margin in test: 0.0, all-layer margin in val: 0.06585669424019608
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 162 iteration: 8100 ====================
+test acc: 75.920%, test adv acc: 8.780%, train acc: 100.000% output margin in test: 0.9999779033067849, output margin in val: 0.7006946600472468, all-layer margin in test: 0.0, all-layer margin in val: 0.06825928949004975
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 163 iteration: 8150 ====================
+test acc: 75.930%, test adv acc: 8.780%, train acc: 100.000% output margin in test: 0.9999785439684533, output margin in val: 0.700867265299734, all-layer margin in test: 0.0, all-layer margin in val: 0.06841980102295409
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 164 iteration: 8200 ====================
+test acc: 75.920%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999791944563811, output margin in val: 0.7010373896896962, all-layer margin in test: 0.0, all-layer margin in val: 0.06752063382056452
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 165 iteration: 8250 ====================
+test acc: 75.910%, test adv acc: 8.810%, train acc: 100.000% output margin in test: 0.9999798397427598, output margin in val: 0.701194696692557, all-layer margin in test: 0.0, all-layer margin in val: 0.06565279374394967
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 166 iteration: 8300 ====================
+test acc: 75.900%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999804451621348, output margin in val: 0.7013175365673097, all-layer margin in test: 0.0, all-layer margin in val: 0.06653763491465864
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 167 iteration: 8350 ====================
+test acc: 75.920%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999809969656431, output margin in val: 0.7014787268508929, all-layer margin in test: 0.0, all-layer margin in val: 0.0676041407803181
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 168 iteration: 8400 ====================
+test acc: 75.940%, test adv acc: 8.780%, train acc: 100.000% output margin in test: 0.9999815781321938, output margin in val: 0.7016575883573406, all-layer margin in test: 0.0, all-layer margin in val: 0.06749510716119096
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 169 iteration: 8450 ====================
+test acc: 75.940%, test adv acc: 8.780%, train acc: 100.000% output margin in test: 0.9999821467716754, output margin in val: 0.7018080911594378, all-layer margin in test: 0.0, all-layer margin in val: 0.06869046029202279
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 170 iteration: 8500 ====================
+test acc: 75.940%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999826750881357, output margin in val: 0.7019687159776173, all-layer margin in test: 0.0, all-layer margin in val: 0.0670759199199806
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 171 iteration: 8550 ====================
+test acc: 75.940%, test adv acc: 8.760%, train acc: 100.000% output margin in test: 0.9999832041345852, output margin in val: 0.7021393921341873, all-layer margin in test: 0.0, all-layer margin in val: 0.07159219977897839
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 172 iteration: 8600 ====================
+test acc: 75.940%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999837138848235, output margin in val: 0.7023140912136386, all-layer margin in test: 0.0, all-layer margin in val: 0.069798470457814
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 173 iteration: 8650 ====================
+test acc: 75.940%, test adv acc: 8.820%, train acc: 100.000% output margin in test: 0.9999841993886943, output margin in val: 0.7024909835082815, all-layer margin in test: 0.0, all-layer margin in val: 0.070749408493117
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 174 iteration: 8700 ====================
+test acc: 75.930%, test adv acc: 8.800%, train acc: 100.000% output margin in test: 0.999984671308504, output margin in val: 0.7026389206959285, all-layer margin in test: 0.0, all-layer margin in val: 0.06948271543086172
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 175 iteration: 8750 ====================
+test acc: 75.920%, test adv acc: 8.840%, train acc: 100.000% output margin in test: 0.999985133603279, output margin in val: 0.7027848922284061, all-layer margin in test: 0.0, all-layer margin in val: 0.06829708200441609
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 176 iteration: 8800 ====================
+test acc: 75.910%, test adv acc: 8.820%, train acc: 100.000% output margin in test: 0.999985578660836, output margin in val: 0.7029221873057173, all-layer margin in test: 0.0, all-layer margin in val: 0.06678512383298756
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 177 iteration: 8850 ====================
+test acc: 75.930%, test adv acc: 8.800%, train acc: 100.000% output margin in test: 0.9999859821909197, output margin in val: 0.7030490949636605, all-layer margin in test: 0.0, all-layer margin in val: 0.07085480604583773
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 178 iteration: 8900 ====================
+test acc: 75.940%, test adv acc: 8.810%, train acc: 100.000% output margin in test: 0.9999864093519476, output margin in val: 0.703224402893933, all-layer margin in test: 0.0, all-layer margin in val: 0.06999026393794147
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 179 iteration: 8950 ====================
+test acc: 75.950%, test adv acc: 8.860%, train acc: 100.000% output margin in test: 0.9999867994018046, output margin in val: 0.7033905841220442, all-layer margin in test: 0.0, all-layer margin in val: 0.07077621981891348
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 180 iteration: 9000 ====================
+test acc: 75.960%, test adv acc: 8.820%, train acc: 100.000% output margin in test: 0.9999871966407724, output margin in val: 0.7035494737635166, all-layer margin in test: 0.0, all-layer margin in val: 0.06898315306508578
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 181 iteration: 9050 ====================
+test acc: 75.930%, test adv acc: 8.840%, train acc: 100.000% output margin in test: 0.9999875696921111, output margin in val: 0.7037032901594529, all-layer margin in test: 0.0, all-layer margin in val: 0.06679428147344228
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 182 iteration: 9100 ====================
+test acc: 75.950%, test adv acc: 8.860%, train acc: 100.000% output margin in test: 0.9999879540811848, output margin in val: 0.7039018926527084, all-layer margin in test: 0.0, all-layer margin in val: 0.06529478092783506
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 183 iteration: 9150 ====================
+test acc: 75.940%, test adv acc: 8.860%, train acc: 100.000% output margin in test: 0.9999882966388541, output margin in val: 0.7040447816832637, all-layer margin in test: 0.0, all-layer margin in val: 0.06774396420031881
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 184 iteration: 9200 ====================
+test acc: 75.930%, test adv acc: 8.860%, train acc: 100.000% output margin in test: 0.9999886750508423, output margin in val: 0.7041834666361015, all-layer margin in test: 0.0, all-layer margin in val: 0.06603255081548198
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 185 iteration: 9250 ====================
+test acc: 75.940%, test adv acc: 8.880%, train acc: 100.000% output margin in test: 0.9999889780346238, output margin in val: 0.7043336991774901, all-layer margin in test: 0.0, all-layer margin in val: 0.07064273364788004
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 186 iteration: 9300 ====================
+test acc: 75.930%, test adv acc: 8.870%, train acc: 100.000% output margin in test: 0.999989315897592, output margin in val: 0.7044960246297733, all-layer margin in test: 0.0, all-layer margin in val: 0.06939618314676617
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 187 iteration: 9350 ====================
+test acc: 75.930%, test adv acc: 8.890%, train acc: 100.000% output margin in test: 0.9999896218703387, output margin in val: 0.7046273881190955, all-layer margin in test: 0.0, all-layer margin in val: 0.0665295633910387
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 188 iteration: 9400 ====================
+test acc: 75.930%, test adv acc: 8.870%, train acc: 100.000% output margin in test: 0.9999899311585483, output margin in val: 0.7047692457394323, all-layer margin in test: 0.0, all-layer margin in val: 0.06951402223736372
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 189 iteration: 9450 ====================
+test acc: 75.940%, test adv acc: 8.830%, train acc: 100.000% output margin in test: 0.9999902265777887, output margin in val: 0.7048989407659921, all-layer margin in test: 0.0, all-layer margin in val: 0.06563403860663984
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 190 iteration: 9500 ====================
+test acc: 75.940%, test adv acc: 8.830%, train acc: 100.000% output margin in test: 0.9999905039300314, output margin in val: 0.7050172309772962, all-layer margin in test: 0.0, all-layer margin in val: 0.065625
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 191 iteration: 9550 ====================
+test acc: 75.960%, test adv acc: 8.860%, train acc: 100.000% output margin in test: 0.9999907840926902, output margin in val: 0.7051713127298078, all-layer margin in test: 0.0, all-layer margin in val: 0.06384046052631578
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 192 iteration: 9600 ====================
+test acc: 75.950%, test adv acc: 8.800%, train acc: 100.000% output margin in test: 0.9999910522903841, output margin in val: 0.7052806958846742, all-layer margin in test: 0.0, all-layer margin in val: 0.06659282901422764
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 193 iteration: 9650 ====================
+test acc: 75.960%, test adv acc: 8.790%, train acc: 100.000% output margin in test: 0.9999913089601238, output margin in val: 0.7054119247564615, all-layer margin in test: 0.0, all-layer margin in val: 0.06732310157790927
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 194 iteration: 9700 ====================
+test acc: 75.950%, test adv acc: 8.830%, train acc: 100.000% output margin in test: 0.9999915552100362, output margin in val: 0.7055506012523176, all-layer margin in test: 0.0, all-layer margin in val: 0.06480278201219512
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 195 iteration: 9750 ====================
+test acc: 75.940%, test adv acc: 8.850%, train acc: 100.000% output margin in test: 0.9999918131843321, output margin in val: 0.7057067840897983, all-layer margin in test: 0.0, all-layer margin in val: 0.06828878012048192
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 196 iteration: 9800 ====================
+test acc: 75.930%, test adv acc: 8.850%, train acc: 100.000% output margin in test: 0.9999920386648904, output margin in val: 0.7058374679364969, all-layer margin in test: 0.0, all-layer margin in val: 0.06704766087278106
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 197 iteration: 9850 ====================
+test acc: 75.930%, test adv acc: 8.810%, train acc: 100.000% output margin in test: 0.9999922684640202, output margin in val: 0.705986016075037, all-layer margin in test: 0.0, all-layer margin in val: 0.06877055921052631
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 198 iteration: 9900 ====================
+test acc: 75.950%, test adv acc: 8.800%, train acc: 100.000% output margin in test: 0.999992499762562, output margin in val: 0.7061380048317368, all-layer margin in test: 0.0, all-layer margin in val: 0.0656255650313404
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 199 iteration: 9950 ====================
+test acc: 75.970%, test adv acc: 8.810%, train acc: 100.000% output margin in test: 0.9999927147602747, output margin in val: 0.7062921611477923, all-layer margin in test: 0.0, all-layer margin in val: 0.06940575935990338
+============================ end of evaluation ============================
+
+
+==================== evaluation at epoch: 200 iteration: 10000 ====================
+test acc: 75.970%, test adv acc: 8.800%, train acc: 100.000% output margin in test: 0.9999929394082016, output margin in val: 0.706417231193393, all-layer margin in test: 0.0, all-layer margin in val: 0.06749447561434303
+============================ end of evaluation ============================
+
