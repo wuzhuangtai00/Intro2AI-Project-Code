@@ -1,11 +1,11 @@
 todo             : train
 dataset          : mnist
-data_root        : /home/scape/datasets
+data_root        : /home/scape/datasets/
 log_root         : log
-model_root       : checkpoint
+model_root       : /home/scape/checkpoint
 load_checkpoint  : ./model/default/model.pth
 affix            : 
-epsilon          : 0.3
+epsilon          : 0.314
 alpha            : 0.15
 k                : 10
 batch_size       : 1
@@ -16,6 +16,11 @@ n_eval_step      : 100
 n_checkpoint_step : 2000
 n_store_image_step : 2000
 perturbation_type : linf
-adv_train        : False
+adv_train        : True
 log_folder       : log/mnist_
-model_folder     : checkpoint/mnist_
+model_folder     : /home/scape/checkpoint/mnist_
+
+==================== evaluation at epoch: 1 iteration: 50 ====================
+test acc: 26.520%, test adv acc: 1.860%, train acc: 0.000% output margin in test: 0.0, output margin in val: 0.00033653298765420913, all-layer margin in test: 0.0, all-layer margin in val: 0.03332745123203285
+============================ end of evaluation ============================
+
