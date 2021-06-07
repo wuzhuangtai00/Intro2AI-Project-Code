@@ -1,8 +1,8 @@
 todo             : train
 dataset          : mnist
-data_root        : /datasets_general
+data_root        : /home/scape/datasets/
 log_root         : log
-model_root       : /checkpoint
+model_root       : /home/scape/checkpoint
 load_checkpoint  : ./model/default/model.pth
 affix            : linf
 epsilon          : 0.157
@@ -18,4 +18,4 @@ n_store_image_step : 2000
 perturbation_type : linf
 adv_train        : True
 log_folder       : log/mnist_linf
-model_folder     : /checkpoint/mnist_linf
+model_folder     : /home/scape/checkpoint/mnist_linf
