@@ -74,7 +74,7 @@ class Trainer():
 
         for epoch in range(1, args.max_epoch+1):
 
-            adjust_learning_rate(opt, epoch)
+            # adjust_learning_rate(opt, epoch)
             output_margin_test = 0
             dataset_size = 0
             all_layer_margin_test = 0
@@ -301,7 +301,7 @@ def main(args):
 
         print("Start Training")
 
-        expect = 100
+        expect = 50
         for i in range(expect):
             x = random.randint(0, 60000)
             while(used[x]):
