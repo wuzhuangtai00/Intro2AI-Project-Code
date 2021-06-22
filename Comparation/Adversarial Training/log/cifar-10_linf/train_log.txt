@@ -8,7 +8,7 @@ affix            : linf
 epsilon          : 0.0157
 alpha            : 0.00784
 k                : 10
-batch_size       : 128
+batch_size       : 1024
 max_epoch        : 200
 learning_rate    : 0.1
 momentum         : 0.9
@@ -21,5 +21,3 @@ perturbation_type : linf
 adv_train        : True
 log_folder       : log/cifar-10_linf
 model_folder     : ~/checkpoint/cifar-10_linf
-epoch: 1, iter: 0, lr=0.1, spent 7.10 s, tr_loss: 2.325 
-standard acc: 10.938%, robustness acc: 10.156%
