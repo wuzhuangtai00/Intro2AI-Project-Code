@@ -9,7 +9,7 @@ def parser():
         help='the directory to save the dataset')
     parser.add_argument('--log_root', default='log', 
         help='the directory to save the logs or other imformations (e.g. images)')
-    parser.add_argument('--model_root', default='checkpoint', help='the directory to save the models')
+    parser.add_argument('--model_root', default='~/checkpoint', help='the directory to save the models')
     parser.add_argument('--load_checkpoint', default='./model/default/model.pth')
     parser.add_argument('--affix', default='default', help='the affix for the save folder')
 
@@ -32,9 +32,9 @@ def parser():
     parser.add_argument('--gpu', '-g', default='0', help='which gpu to use')
     parser.add_argument('--n_eval_step', type=int, default=100, 
         help='number of iteration per one evaluation')
-    parser.add_argument('--n_checkpoint_step', type=int, default=4000, 
+    parser.add_argument('--n_checkpoint_step', type=int, default=100000, 
         help='number of iteration to save a checkpoint')
-    parser.add_argument('--n_store_image_step', type=int, default=4000, 
+    parser.add_argument('--n_store_image_step', type=int, default=1000000000, 
         help='number of iteration to save adversaries')
     parser.add_argument('--perturbation_type', '-p', choices=['linf', 'l2'], default='linf', 
         help='the type of the perturbation (linf or l2)')
