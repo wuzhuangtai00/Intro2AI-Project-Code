@@ -18,20 +18,8 @@ inner_lr  :  0.01
 inner_wd  :  0
 switch_time  :  1
 save_dir  :  log/
-data_dir  :  /home/scape/datasets
-Files already downloaded and verified
+data_dir  :  /root/datasets
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /root/datasets/cifar-10-python.tar.gz
 Files already downloaded and verified
 => creating model 'bn_wideresnet16'
 Number of model parameters: 17116666
-Epoch: [0][0/391]	Time 1.753 (1.753)	Loss 3.1922 (3.1922)	Prec@1 9.375 (9.375)Perturb 0.000 (0.000)
-Epoch: [0][10/391]	Time 0.054 (0.208)	Loss 1.9878 (2.5728)	Prec@1 23.438 (16.974)Perturb 20.312 (12.784)
-Epoch: [0][20/391]	Time 0.052 (0.133)	Loss 1.9067 (2.3066)	Prec@1 27.344 (20.796)Perturb 26.562 (18.080)
-Epoch: [0][30/391]	Time 0.052 (0.107)	Loss 1.8447 (2.1778)	Prec@1 27.344 (23.135)Perturb 27.344 (20.917)
-Epoch: [0][40/391]	Time 0.052 (0.094)	Loss 1.6623 (2.0994)	Prec@1 40.625 (25.305)Perturb 39.062 (23.152)
-Epoch: [0][50/391]	Time 0.053 (0.086)	Loss 1.6943 (2.0472)	Prec@1 39.844 (26.608)Perturb 35.156 (24.387)
-Epoch: [0][60/391]	Time 0.052 (0.080)	Loss 1.5579 (1.9875)	Prec@1 35.938 (28.522)Perturb 32.812 (26.230)
-Epoch: [0][70/391]	Time 0.053 (0.076)	Loss 1.7321 (1.9481)	Prec@1 39.062 (29.919)Perturb 37.500 (27.729)
-Epoch: [0][80/391]	Time 0.053 (0.073)	Loss 1.6929 (1.9094)	Prec@1 42.188 (31.211)Perturb 37.500 (28.964)
-Epoch: [0][90/391]	Time 0.054 (0.071)	Loss 1.6752 (1.8760)	Prec@1 44.531 (32.512)Perturb 44.531 (30.263)
-Epoch: [0][100/391]	Time 0.053 (0.069)	Loss 1.7610 (1.8546)	Prec@1 41.406 (33.222)Perturb 38.281 (31.072)
-Epoch: [0][110/391]	Time 0.054 (0.068)	Loss 1.4640 (1.8302)	Prec@1 50.781 (34.164)Perturb 49.219 (32.017)
