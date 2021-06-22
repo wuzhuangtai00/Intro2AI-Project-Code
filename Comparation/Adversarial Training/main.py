@@ -109,9 +109,9 @@ class Trainer():
                     begin_time = time()
 
                 if _iter % args.n_store_image_step == 0:
-                    tv.utils.save_image(torch.cat([data.cpu(), adv_data.cpu()], dim=0), 
-                                        os.path.join(args.log_folder, f'images_{_iter}.jpg'), 
-                                        nrow=16)
+                    # tv.utils.save_image(torch.cat([data.cpu(), adv_data.cpu()], dim=0), 
+                                        # os.path.join(args.log_folder, f'images_{_iter}.jpg'), 
+                                        # nrow=16)
 
                 if _iter % args.n_checkpoint_step == 0:
                     file_name = os.path.join(args.model_folder, f'checkpoint_{_iter}.pth')
