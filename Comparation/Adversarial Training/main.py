@@ -90,7 +90,7 @@ class Trainer():
 
                     t2 = time()
 
-                    logger.info(f'epoch: {epoch}, iter: {_iter}, lr={opt.param_groups[0]["lr"]}, '
+                    logger.info(f'epoch: {epoch}, iter: {_iter}, lr={opt.param_groups[0]["lr"]}, 
                                 f'spent {time()-begin_time:.2f} s, tr_loss: {loss.item():.3f}')
 
                     logger.info(f'standard acc: {std_acc:.3f}%, robustness acc: {adv_acc:.3f}%')
