@@ -70,20 +70,12 @@ def main():
 	save_dir = os.path.join(args.save_dir, save_str)
 
 
-	tr_dataset = tv.datasets.MNIST(args.data_dir, 
-									train=True, 
-									transform=tv.transforms.ToTensor(), 
-									download=True)
-	print(args.batch_size)
-	train_loader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
-
-	# evaluation during training
-	te_dataset = tv.datasets.MNIST(args.data_dir, 
-									train=False, 
-									transform=tv.transforms.ToTensor(), 
-									download=True)
-
-	val_loader = DataLoader(te_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
+	train_loader, val_loader = data_util.load_data(
+		args.batch_size, 
+		args.dataset,
+		data_path=args.data_dir,
+		corrupt_prob=args.corrupt_prob,
+		augment=args.augment)
 
 	# train_loader, val_loader = data_util.load_data(
 		# args.batch_size, 
@@ -198,15 +190,15 @@ def main():
 		is_best = val_acc > best_val
 		best_val = max(val_acc, best_val)
 
-		save_util.save_checkpoint(
-			{
-				'epoch': epoch + 1,
-				'state_dict': model.state_dict(),
-				'best_val': best_val,
-			}, 
-			scalar_dict,
-			is_best,
-			save_dir)
+		# save_util.save_checkpoint(
+			# {
+				# 'epoch': epoch + 1,
+				# 'state_dict': model.state_dict(),
+				# 'best_val': best_val,
+			# }, 
+			# scalar_dict,
+			# is_best,
+			# save_dir)
 
 		print('Best accuracy: ', best_val)
 			

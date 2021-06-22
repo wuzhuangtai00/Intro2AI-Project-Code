@@ -26,10 +26,10 @@ def save_checkpoint(
 	is_best,
 	save_dir):
 	
-	filename = os.path.join(save_dir, 'checkpoint.pth.tar')
-	torch.save(model_state, filename)
-	if is_best:
-		shutil.copyfile(filename, os.path.join(save_dir, 'model_best.pth.tar'))
+	# filename = os.path.join(save_dir, 'checkpoint.pth.tar')
+	# torch.save(model_state, filename)
+	# if is_best:
+		# shutil.copyfile(filename, os.path.join(save_dir, 'model_best.pth.tar'))
 
-	data_loc = os.path.join(save_dir, 'scalar_dict.pkl')
-	torch.save(data_state, data_loc)
+	# data_loc = os.path.join(save_dir, 'scalar_dict.pkl')
+	# torch.save(data_state, data_loc)
