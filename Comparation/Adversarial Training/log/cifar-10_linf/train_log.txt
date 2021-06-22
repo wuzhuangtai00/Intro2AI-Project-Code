@@ -21,3 +21,5 @@ perturbation_type : linf
 adv_train        : True
 log_folder       : log/cifar-10_linf
 model_folder     : ~/checkpoint/cifar-10_linf
+epoch: 1, iter: 0, lr=0.1, spent 7.10 s, tr_loss: 2.325 
+standard acc: 10.938%, robustness acc: 10.156%

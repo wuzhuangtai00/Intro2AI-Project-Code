@@ -14,6 +14,8 @@ import torchvision.transforms as transforms
 import save_util
 import train_util
 
+from utils import makedirs, create_logger, tensor2cuda, numpy2cuda, evaluate, save_model
+
 from torch.utils.data import DataLoader
 import data_util
 #import eval_loss_util
@@ -71,6 +73,7 @@ def main():
 		args.reg_type)
 	save_dir = os.path.join(args.save_dir, save_str)
 
+    # logger = create_logger(save_dir, 'train', 'info')
 
 	transform = transforms.Compose(
 		[
