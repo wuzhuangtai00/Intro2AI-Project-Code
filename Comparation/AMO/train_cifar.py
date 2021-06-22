@@ -9,6 +9,8 @@ import torch.optim
 import torch.nn as nn
 import torchvision as tv
 
+import torchvision.transforms as transforms
+
 import save_util
 import train_util
 
@@ -43,7 +45,7 @@ parser.add_argument('--resume', default='', type=str,
 					help='path to latest checkpoint (default: none)')
 parser.add_argument('--name', default='ResNet', type=str,
 					help='name of experiment')
-parser.add_argument('--dataset', choices=["MNIST"], default="MNIST",
+parser.add_argument('--dataset', choices=["cifar10"], default="cifar10",
 					help='which dataset')
 parser.add_argument('--corrupt_prob', type=float, default=0, help='Probability of corrupting label.')
 parser.add_argument('--lr_sched', choices=lr_scheds, default='wr_default', 
@@ -70,12 +72,22 @@ def main():
 	save_dir = os.path.join(args.save_dir, save_str)
 
 
-	train_loader, val_loader = data_util.load_data(
-		args.batch_size, 
-		args.dataset,
-		data_path=args.data_dir,
-		corrupt_prob=args.corrupt_prob,
-		augment=args.augment)
+	transform = transforms.Compose(
+		[
+		transforms.ToTensor(),
+		transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5))
+		])
+	trainset = tv.datasets.CIFAR10(root=args.data_dir,train=True,
+											download=True,transform = transform)
+
+	train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, num_workers=4)
+
+
+	testset = tv.datasets.CIFAR10(root=args.data_dir, train=False,
+											download=True, transform=transform)
+
+	test_loader = torch.utils.data.DataLoader(testset, batch_size=args.batch_size, shuffle=True, num_workers=4)
+	
 
 	# train_loader, val_loader = data_util.load_data(
 		# args.batch_size, 

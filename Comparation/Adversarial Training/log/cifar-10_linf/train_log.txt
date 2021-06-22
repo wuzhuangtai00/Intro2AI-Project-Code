@@ -1,6 +1,6 @@
 todo             : train
 dataset          : cifar-10
-data_root        : /home/scape/datasets
+data_root        : ~/datasets
 log_root         : log
 model_root       : ~/checkpoint
 load_checkpoint  : ./model/default/model.pth
@@ -21,5 +21,5 @@ perturbation_type : linf
 adv_train        : True
 log_folder       : log/cifar-10_linf
 model_folder     : ~/checkpoint/cifar-10_linf
-epoch: 1, iter: 0, lr=0.1, spent 6.97 s, tr_loss: 2.322
-standard acc: 11.719%, robustness acc: 11.719%
+epoch: 1, iter: 0, lr=0.1, spent 6.87 s, tr_loss: 2.351
+standard acc: 12.500%, robustness acc: 7.812%
