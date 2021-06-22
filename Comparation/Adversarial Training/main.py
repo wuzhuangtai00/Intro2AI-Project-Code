@@ -115,7 +115,7 @@ class Trainer():
 
                 if _iter % args.n_checkpoint_step == 0:
                     file_name = os.path.join(args.model_folder, f'checkpoint_{_iter}.pth')
-                    save_model(model, file_name)
+                    # save_model(model, file_name)
 
                 _iter += 1
                 # scheduler depends on training interation
